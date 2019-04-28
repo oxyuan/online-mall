@@ -7,8 +7,8 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "item_parem")
-public class ItemParem implements Serializable {
+@Table(name = "item_param")
+public class ItemParam implements Serializable {
 
     @Id
     private Long id;

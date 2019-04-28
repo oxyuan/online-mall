@@ -1,7 +1,7 @@
 package cn.boyce.controller;
 
 import cn.boyce.format.EasyUIDataGridResult;
-import cn.boyce.format.MallResult;
+import cn.boyce.format.R;
 import cn.boyce.pojo.Item;
 import cn.boyce.service.impl.ItemServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +29,7 @@ public class ItemController {
     }
 
     @PostMapping("/save")
-    public MallResult saveItem(Item item, String desc) {
+    public R saveItem(Item item, String desc) {
         return itemService.addItem(item, desc);
     }
 

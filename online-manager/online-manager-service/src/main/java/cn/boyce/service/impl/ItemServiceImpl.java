@@ -1,7 +1,7 @@
 package cn.boyce.service.impl;
 
 import cn.boyce.format.EasyUIDataGridResult;
-import cn.boyce.format.MallResult;
+import cn.boyce.format.R;
 import cn.boyce.pojo.Item;
 import cn.boyce.pojo.ItemDesc;
 import cn.boyce.repo.ItemDao;
@@ -60,7 +60,7 @@ public class ItemServiceImpl implements ItemService {
      * @return
      */
     @Override
-    public MallResult addItem(Item item, String desc) {
+    public R addItem(Item item, String desc) {
         // 1、生成商品 ID
         long itemId = IDUtils.genItemId();
         // 2、补全 Item 对象的属性
@@ -82,7 +82,7 @@ public class ItemServiceImpl implements ItemService {
         // 6、向商品描述表插入数据
         itemDescDao.save(itemDesc);
 
-        return MallResult.ok();
+        return R.ok();
     }
 
 }

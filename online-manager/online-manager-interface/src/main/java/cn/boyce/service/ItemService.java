@@ -1,10 +1,8 @@
 package cn.boyce.service;
 
 import cn.boyce.format.EasyUIDataGridResult;
-import cn.boyce.format.MallResult;
+import cn.boyce.format.R;
 import cn.boyce.pojo.Item;
-
-import java.util.Optional;
 
 /**
  * @Author: Yuan Baiyu
@@ -16,5 +14,5 @@ public interface ItemService {
 
     EasyUIDataGridResult getItemList(int page,int rows);
 
-    MallResult addItem(Item item, String desc);
+    R addItem(Item item, String desc);
 }
