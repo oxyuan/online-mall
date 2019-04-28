@@ -1,6 +1,7 @@
 package cn.boyce.service;
 
 import cn.boyce.format.EasyUIDataGridResult;
+import cn.boyce.format.MallResult;
 import cn.boyce.pojo.Item;
 
 import java.util.Optional;
@@ -11,8 +12,9 @@ import java.util.Optional;
  **/
 public interface ItemService {
 
-    Optional<Item> getItemById(Long id);
+    Item getItemById(Long id);
 
     EasyUIDataGridResult getItemList(int page,int rows);
 
+    MallResult addItem(Item item, String desc);
 }

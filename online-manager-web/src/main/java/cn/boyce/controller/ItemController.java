@@ -1,7 +1,8 @@
 package cn.boyce.controller;
 
 import cn.boyce.format.EasyUIDataGridResult;
-import cn.boyce.format.R;
+import cn.boyce.format.MallResult;
+import cn.boyce.pojo.Item;
 import cn.boyce.service.impl.ItemServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -17,17 +18,19 @@ public class ItemController {
     @Autowired
     ItemServiceImpl itemService;
 
-    @GetMapping("/{id}")
-    public R getItem(@PathVariable("id") Long id) {
-        try {
-            return R.isOk().data(itemService.getItemById(id));
-        } catch (Exception e) {
-            return R.isFail(e);
-        }
+    @GetMapping("/{itemId}")
+    public Item getItem(@PathVariable Long itemId) {
+        return itemService.getItemById(itemId);
     }
 
     @GetMapping("/list")
     public EasyUIDataGridResult getItemList(Integer page, Integer rows) {
         return itemService.getItemList(page, rows);
     }
+
+    @PostMapping("/save")
+    public MallResult saveItem(Item item, String desc) {
+        return itemService.addItem(item, desc);
+    }
+
 }

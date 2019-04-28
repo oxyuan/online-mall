@@ -1,15 +1,21 @@
 package cn.boyce.service.impl;
 
 import cn.boyce.format.EasyUIDataGridResult;
+import cn.boyce.format.MallResult;
 import cn.boyce.pojo.Item;
+import cn.boyce.pojo.ItemDesc;
 import cn.boyce.repo.ItemDao;
+import cn.boyce.repo.ItemDescDao;
 import cn.boyce.service.ItemService;
+import cn.boyce.util.IDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+
+import java.util.Date;
 
 /**
  * @Author: Yuan Baiyu
@@ -21,9 +27,12 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     ItemDao itemDao;
 
+    @Autowired
+    ItemDescDao itemDescDao;
+
     @Override
-    public java.util.Optional<Item> getItemById(Long id) {
-        return itemDao.findById(id);
+    public Item getItemById(Long id) {
+        return itemDao.findById(id).get();
 
     }
 
@@ -32,7 +41,8 @@ public class ItemServiceImpl implements ItemService {
 
         //将参数传给这个方法就可以实现物理分页。排序：
         Sort sort = new Sort(Sort.Direction.DESC, "id");
-        Pageable pageable = new PageRequest(page, rows, sort);
+        //page=0 为第一页，前端默认所传为 1
+        Pageable pageable = new PageRequest(page - 1, rows, sort);
         Page itemPage = itemDao.findAll(pageable);
 
         // 创建返回结果对象
@@ -40,6 +50,39 @@ public class ItemServiceImpl implements ItemService {
         result.setTotal(itemPage.getTotalElements());
         result.setRows(itemPage.getContent());
         return result;
+    }
+
+    /**
+     * 后台管理添加商品至数据库
+     *
+     * @param item 商品
+     * @param desc 商品描述
+     * @return
+     */
+    @Override
+    public MallResult addItem(Item item, String desc) {
+        // 1、生成商品 ID
+        long itemId = IDUtils.genItemId();
+        // 2、补全 Item 对象的属性
+        item.setId(itemId);
+        // 商品状态 1-正常，2-下架，3-删除
+        item.setStatus((byte) 1);
+        Date date = new Date();
+        item.setCreated(date);
+        item.setUpdated(date);
+        // 3、向商品表插入数据
+        itemDao.save(item);
+        // 4、创建一个 ItemDesc 对象
+        ItemDesc itemDesc = new ItemDesc();
+        // 5、补全 TbItemDesc 的属性
+        itemDesc.setItemId(itemId);
+        itemDesc.setItemDesc(desc);
+        itemDesc.setCreated(date);
+        itemDesc.setUpdated(date);
+        // 6、向商品描述表插入数据
+        itemDescDao.save(itemDesc);
+
+        return MallResult.ok();
     }
 
 }
