@@ -1,0 +1,9 @@
+# 拉取 mysql 镜像
+docker pull mysql:5.7.23
+# 启动 mysql 容器
+docker run --name 容器名字 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=密码 -d mysql:5.7.23 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+# 拉取 zookeeper 镜像
+docker pull zookeeper:3.4.13
+# 启动 zookeeper 容器
+docker run --name 容器名称 -p 2181:2181 --restart always -d zookeeper:3.4.13
