@@ -12,7 +12,7 @@ public interface ItemService {
 
     Item getItemById(Long id);
 
-    EasyUIDataGridResult getItemList(int page,int rows);
+    EasyUIDataGridResult getItemList(int page, int rows);
 
-    R addItem(Item item, String desc);
+    R addItem(Item item, String desc, String itemParam);
 }

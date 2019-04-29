@@ -4,8 +4,10 @@ import cn.boyce.format.EasyUIDataGridResult;
 import cn.boyce.format.R;
 import cn.boyce.pojo.Item;
 import cn.boyce.pojo.ItemDesc;
+import cn.boyce.pojo.ItemParamItem;
 import cn.boyce.repo.ItemDao;
 import cn.boyce.repo.ItemDescDao;
+import cn.boyce.repo.ItemParamItemDao;
 import cn.boyce.service.ItemService;
 import cn.boyce.util.IDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +31,9 @@ public class ItemServiceImpl implements ItemService {
 
     @Autowired
     ItemDescDao itemDescDao;
+
+    @Autowired
+    ItemParamItemDao itemParamItemDao;
 
     @Override
     public Item getItemById(Long id) {
@@ -60,7 +65,7 @@ public class ItemServiceImpl implements ItemService {
      * @return
      */
     @Override
-    public R addItem(Item item, String desc) {
+    public R addItem(Item item, String desc, String itemParam) {
         // 1、生成商品 ID
         long itemId = IDUtils.genItemId();
         // 2、补全 Item 对象的属性
@@ -71,7 +76,7 @@ public class ItemServiceImpl implements ItemService {
         item.setCreated(date);
         item.setUpdated(date);
         // 3、向商品表插入数据
-        itemDao.save(item);
+        itemDao.saveAndFlush(item);
         // 4、创建一个 ItemDesc 对象
         ItemDesc itemDesc = new ItemDesc();
         // 5、补全 TbItemDesc 的属性
@@ -80,7 +85,15 @@ public class ItemServiceImpl implements ItemService {
         itemDesc.setCreated(date);
         itemDesc.setUpdated(date);
         // 6、向商品描述表插入数据
-        itemDescDao.save(itemDesc);
+        itemDescDao.saveAndFlush(itemDesc);
+        // 7、添加商品规格参数处理
+        ItemParamItem itemParamItem = new ItemParamItem();
+        itemParamItem.setItemId(itemId);
+        itemParamItem.setCreated(date);
+        itemParamItem.setUpdated(date);
+        itemParamItem.setParamData(itemParam);
+        // 8、插入数据
+        itemParamItemDao.saveAndFlush(itemParamItem);
 
         return R.ok();
     }

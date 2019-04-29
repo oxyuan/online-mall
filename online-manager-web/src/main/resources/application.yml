@@ -21,7 +21,7 @@ spring:
   jpa:
     database: default
     # 开发时显示sql，部署到生产环境时设为false
-    show-sql: true
+#    show-sql: true
     # 使用mysql方言
     database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:

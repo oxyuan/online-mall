@@ -29,8 +29,8 @@ public class ItemController {
     }
 
     @PostMapping("/save")
-    public R saveItem(Item item, String desc) {
-        return itemService.addItem(item, desc);
+    public R saveItem(Item item, String desc, String itemParams) {
+        return itemService.addItem(item, desc, itemParams);
     }
 
 }

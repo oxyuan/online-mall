@@ -12,4 +12,8 @@ public interface ItemParamService {
     EasyUIDataGridResult getItemParamList(int page, int rows);
 
     R getItemParamByCid(Long cid);
+
+    R addItemParam(Long cid, String paramData);
+
+    R deleteParam(String ids);
 }

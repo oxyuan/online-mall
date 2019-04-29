@@ -4,9 +4,7 @@ import cn.boyce.format.EasyUIDataGridResult;
 import cn.boyce.format.R;
 import cn.boyce.service.impl.ItemParamServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * 商品规格管理模板 controller
@@ -31,4 +29,13 @@ public class ItemParamController {
         return itemParamService.getItemParamByCid(cid);
     }
 
+    @RequestMapping("/save/{cid}")
+    public R insertItemParam(@PathVariable Long cid, String paramData) {
+        return itemParamService.addItemParam(cid, paramData);
+    }
+
+    @PostMapping("/delete")
+    public R deleteParam(String ids) {
+        return itemParamService.deleteParam(ids);
+    }
 }

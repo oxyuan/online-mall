@@ -12,6 +12,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
+
 /**
  * 商品规格参数模板管理 service
  *
@@ -46,4 +48,36 @@ public class ItemParamServiceImpl implements ItemParamService {
         }
         return R.ok();
     }
+
+    @Override
+    public R addItemParam(Long cid, String paramData) {
+        ItemParam itemParam = new ItemParam();  // 此时 itemParam 的 id 值为 null
+        itemParam.setItemCatId(cid);
+        itemParam.setParamData(paramData);
+        itemParam.setCreated(new Date());
+        itemParam.setUpdated(new Date());
+        itemParamDao.saveAndFlush(itemParam);
+        Long result = itemParam.getId();   // 此时 itemParam 的 id 值为 数据库自增后的值
+        if (result != null) {
+            return R.ok();
+        } else {
+            return R.build(400, "新增规格参数失败");
+        }
+    }
+
+    @Override
+    public R deleteParam(String ids) {
+        try {
+            String[] idsArray = ids.split(",");
+            for (String id : idsArray) {
+                itemParamDao.deleteById(Long.valueOf(id));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+        return R.ok();
+    }
+
+
 }
