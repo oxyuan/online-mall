@@ -4,19 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9634bb-6fee-42b3-b5d0-b7f8407578f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/online-content/online-content-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-content/online-content-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-content/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/RestItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager-web/src/main/resources/templates/item-param.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemDescService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemParamItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/ManagerServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/config/DruidConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemDescServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamItemServiceImpl.java" afterDir="false" />
+    <list default="true" id="2a9634bb-6fee-42b3-b5d0-b7f8407578f7" name="Default Changelist" comment="前台展示开发">
       <change afterPath="$PROJECT_DIR$/online-portal-web/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/PortalApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySettingFileConfig.java" afterDir="false" />
@@ -96,72 +84,8 @@
       <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/mainmenu.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/shortcut.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6c13209-e97d-474d-a9c5-8162a0caf3df.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Boye_Yuan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-15T022502.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-15T025233.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-15T033415.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-15T045018.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-15T101629.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-15T102010.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-04-21T124005.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/format/EasyUIDataGridResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/format/EasyUIDataGridResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/format/EasyUITreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/format/EasyUITreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/format/PictureResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/format/PictureResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/format/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/format/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/util/FastDFSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/FastDFSClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/util/IDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/IDUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/util/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/ManagerWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/ManagerWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/ServletInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/config/MySettingFileConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/config/MySettingFileConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/config/MySpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/config/MySpringMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemCatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/controller/ItemParamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/controller/PictureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager-web/src/test/java/cn/boyce/dao/FastDFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/test/java/cn/boyce/manager/test/FastDFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/repo/ItemCatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemCatDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/repo/ItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/repo/ItemDescDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemDescDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/repo/ItemParamDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemParamDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/repo/ItemParamItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemParamItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemCatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/service/ItemParamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemParamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/service/PictureService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/Content.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/ContentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ContentCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/ItemCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ItemCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/ItemDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ItemDesc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/ItemParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ItemParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/ItemParamItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ItemParamItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/OrderShipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/OrderShipping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/service/impl/ItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemCatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/service/impl/ItemParamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/service/impl/PictureServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/src/test/java/cn/boyce/ManagerServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/online-parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/online-manager-web/target/" />
@@ -201,7 +125,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -250,9 +184,7 @@
         <option value="$PROJECT_DIR$/online-content/online-content-service/pom.xml" />
         <option value="$PROJECT_DIR$/online-manager/online-manager-interface/pom.xml" />
         <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java" />
-        <option value="$PROJECT_DIR$/online-portal-web/pom.xml" />
         <option value="$PROJECT_DIR$/online-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamController.java" />
         <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamItemController.java" />
         <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/RestItemController.java" />
@@ -279,6 +211,9 @@
         <option value="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemParamService.java" />
         <option value="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemService.java" />
         <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-portal-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/online-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -486,6 +421,68 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -541,7 +538,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.2202473" />
+    <option name="contentProportion" value="0.18392581" />
   </component>
   <component name="RunManager" selected="Spring Boot.PortalApplication">
     <configuration name="ManagerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -573,8 +570,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ManagerWebApplication" />
         <item itemvalue="Spring Boot.ManagerServiceApplication" />
+        <item itemvalue="Spring Boot.ManagerWebApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -588,17 +585,25 @@
       <workItem from="1556692031015" duration="13860000" />
       <workItem from="1556712489660" duration="308000" />
       <workItem from="1556712875297" duration="13302000" />
-      <workItem from="1556771730063" duration="6923000" />
+      <workItem from="1556771730063" duration="8199000" />
     </task>
+    <task id="LOCAL-00001" summary="工程改造：dubbo使用、事物管理">
+      <created>1556785504979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556785504980</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34393000" />
+    <option name="totallyTimeSpent" value="35669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -622,7 +627,7 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.54943275" />
       <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.58508915" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.6482982" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -669,6 +674,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="工程改造：dubbo使用、事物管理" />
+    <MESSAGE value="前台展示开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="前台展示开发" />
+  </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="localhost" />
     <option name="port" value="2181" />
@@ -677,24 +713,8 @@
     <option name="enabled" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/PictureServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/PictureService.java" />
-    <entry file="file://$PROJECT_DIR$/online-portal-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySpringMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -747,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/PortalApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamItemController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -796,28 +809,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/online-dubbo-admin/src/main/resources/META-INF/spring/dubbo-admin.xml" />
     <entry file="file://$PROJECT_DIR$/online-dubbo-admin/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -981,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemParamService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -1064,6 +1054,55 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/PortalApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
