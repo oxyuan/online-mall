@@ -5,85 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9634bb-6fee-42b3-b5d0-b7f8407578f7" name="Default Changelist" comment="前台展示开发">
-      <change afterPath="$PROJECT_DIR$/online-portal-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/PortalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySettingFileConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySpringMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/css/base_w1200.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/bottom_sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/cate_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/foot/cd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/foot/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/foot/qc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/foot/qq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/foot/sf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/foot_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/g_loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/160x160-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/160x160-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/160x160-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/160x160-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/160x160-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/160x160-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/160x160-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/160x160-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/26336113289bf7273823080488a9d200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/751d2091c008c2a49c1934545730f041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/8f42d6d2deead3da7d50c8a702a3c939.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/goods/c11e0d59289782b09ea1cbcb98070017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/042cc65a4fb9899878f2f37235ca1793.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1463455028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1463456854.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1468837571.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1471311388.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1471311447.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1472521203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1472521236.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1472521250.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/1748dcf682d7f595012e4309695d71d9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/20160829181637762.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/26336113289bf7273823080488a9d200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/2a3ba6ffb33d8fca0dc848f94e3d99d8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/49111b8189bf71370cdb145f8fdb1195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/516e4d058d1d65a3506e179642297b2d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/51e357022c1f826f13211222831a4b13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/600c425e04b41f49e451d2fdbafb6e45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/751d2091c008c2a49c1934545730f041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/757e35fab995b43c23b4396dc3ba4269.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/7a80fda907bf5107f6967add2a304a51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/838abc2055e36f423701de255bbc9914.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/8f42d6d2deead3da7d50c8a702a3c939.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/95256f5b2857ec28914f631532508d76.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/c11e0d59289782b09ea1cbcb98070017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/c3449a684bebe21f5b6c6c79e46791ff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/cf33d7d36f1128577782ded21fe812a9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/de66a063548629c8d4e639523d8c9c6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/e886f76e03f7a3596033eb34ca362339.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/html/logo_word.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/indexImg20130307.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/index_icon_new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/indexsprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/kxicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/left_lm_m.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/left_lm_m_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/logo66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/e3mall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/global_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/mainmenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/shortcut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" afterDir="false" />
     </list>
@@ -129,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -585,7 +506,7 @@
       <workItem from="1556692031015" duration="13860000" />
       <workItem from="1556712489660" duration="308000" />
       <workItem from="1556712875297" duration="13302000" />
-      <workItem from="1556771730063" duration="8199000" />
+      <workItem from="1556771730063" duration="8563000" />
     </task>
     <task id="LOCAL-00001" summary="工程改造：dubbo使用、事物管理">
       <created>1556785504979</created>
@@ -594,16 +515,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556785504980</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="前台展示开发">
+      <created>1556786480905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556786480905</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35669000" />
+    <option name="totallyTimeSpent" value="36033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -616,18 +545,18 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.49756888" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32901135" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.58184767" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5656402" />
       <window_info anchor="bottom" id="Problems" order="12" weight="0.4197731" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.54943275" />
       <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.6482982" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.45380875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -713,8 +642,6 @@
     <option name="enabled" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/PictureServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/PictureService.java" />
     <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySpringMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1099,10 +1026,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/css/base_w1200.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/global_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="1113" column="23" lean-forward="true" selection-start-line="1113" selection-start-column="23" selection-end-line="1113" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
