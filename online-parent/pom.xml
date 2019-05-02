@@ -35,7 +35,7 @@
         <zk-client.version>0.1</zk-client.version>
         <quartz.version>2.2.2</quartz.version>
         <lombok.version>1.18.6</lombok.version>
-<!--        <springboot.version>2.0.4.RELEASE</springboot.version>-->
+        <springboot.version>2.0.4.RELEASE</springboot.version>
         <fastdfs.version>1.27</fastdfs.version>
 
     </properties>

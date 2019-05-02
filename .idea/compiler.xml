@@ -6,24 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="online-portal-web" />
         <module name="online-manager-interface" />
         <module name="online-manager-pojo" />
+        <module name="online-dubbo-admin" />
         <module name="online-common" />
         <module name="online-manager-dao" />
         <module name="online-manager-service" />
+        <module name="online-content-service" />
+        <module name="online-content-interface" />
         <module name="online-manager-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="maven-archiver (1)" target="1.5" />
+      <module name="maven-archiver (2)" target="1.5" />
+      <module name="maven-archiver (3)" target="1.5" />
+      <module name="maven-archiver (4)" target="1.5" />
+      <module name="maven-archiver (5)" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="online-common" options="-parameters" />
+      <module name="online-content-interface" options="-parameters" />
+      <module name="online-content-service" options="-parameters" />
+      <module name="online-dubbo-admin" options="-parameters" />
       <module name="online-manager-dao" options="-parameters" />
       <module name="online-manager-interface" options="-parameters" />
       <module name="online-manager-pojo" options="-parameters" />
       <module name="online-manager-service" options="-parameters" />
       <module name="online-manager-web" options="-parameters" />
+      <module name="online-portal-web" options="-parameters" />
     </option>
   </component>
 </project>

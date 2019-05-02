@@ -3,15 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>online-manager</artifactId>
+        <artifactId>online-content</artifactId>
         <groupId>cn.boyce</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>online-manager-service</artifactId>
 
-    <packaging>war</packaging>
+    <artifactId>online-content-service</artifactId>
 
     <dependencies>
         <dependency>
@@ -19,29 +17,24 @@
             <artifactId>online-manager-dao</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <dependency>
             <groupId>cn.boyce</groupId>
-            <artifactId>online-manager-interface</artifactId>
+            <artifactId>online-content-interface</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!--springboot 的 web 组件-->
+        <!--springboot 的 web 组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
         <!--redis-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-data-redis</artifactId> -->
+        <!--        </dependency>-->
 
         <!--dubbo-->
         <dependency>
@@ -50,23 +43,27 @@
         </dependency>
 
         <!--zookeeper client-->
-        <dependency>
-            <groupId>com.github.sgroschupf</groupId>
-            <artifactId>zkclient</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>com.github.sgroschupf</groupId>-->
+        <!--            <artifactId>zkclient</artifactId>-->
+        <!--        </dependency>-->
 
         <!--activemq-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-activemq</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-activemq</artifactId>-->
+        <!--        </dependency>-->
 
         <!--  启用 JMS 的池化, 就一定要加上这个 jar-->
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-pool</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.activemq</groupId>-->
+        <!--            <artifactId>activemq-pool</artifactId>-->
+        <!--        </dependency>-->
 
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-thymeleaf</artifactId>-->
+        <!--        </dependency>-->
 
         <!-- 热部署 -->
         <!--        <dependency>-->

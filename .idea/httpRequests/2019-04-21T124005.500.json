@@ -1,7 +1,0 @@
-{
-  "timestamp": "2019-04-20T16:40:05.170+0000",
-  "status": 500,
-  "error": "Internal Server Error",
-  "message": "Error resolving template \"item\", template might not exist or might not be accessible by any of the configured Template Resolvers",
-  "path": "/item/"
-}
