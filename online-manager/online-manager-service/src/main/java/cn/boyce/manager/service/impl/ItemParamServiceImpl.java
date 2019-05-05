@@ -30,7 +30,7 @@ public class ItemParamServiceImpl implements ItemParamService {
     public EasyUIDataGridResult getItemParamList(int page, int rows) {
         //将参数传给这个方法就可以实现物理分页。排序：
         Sort sort = new Sort(Sort.Direction.DESC, "id");
-        Pageable pageable = new PageRequest(page - 1, rows, sort);
+        Pageable pageable = PageRequest.of(page - 1, rows, sort);
         Page itemParamPage = itemParamDao.findAll(pageable);
 
         // 创建返回结果对象

@@ -11,6 +11,8 @@ import java.util.Date;
 @Table(name = "order")
 public class Order implements Serializable {
 
+    private static final long serialVersionUID = -4813361542496370884L;
+
     @Id
     private String orderId;
 

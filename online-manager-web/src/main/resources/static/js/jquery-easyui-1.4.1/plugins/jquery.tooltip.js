@@ -113,7 +113,7 @@ var _15=$.data(_14,"tooltip");
 var _16=_15.options;
 var tip=_15.tip;
 if(!tip){
-tip=$("<div tabindex=\"-1\" class=\"tooltip\">"+"<div class=\"tooltip-content\"></div>"+"<div class=\"tooltip-arrow-outer\"></div>"+"<div class=\"tooltip-arrow\"></div>"+"</div>").appendTo("body");
+tip=$("<div tabindex=\"-1\" class=\"tooltip\">"+"<div class=\"tooltip-manager\"></div>"+"<div class=\"tooltip-arrow-outer\"></div>"+"<div class=\"tooltip-arrow\"></div>"+"</div>").appendTo("body");
 _15.tip=tip;
 _17(_14);
 }
@@ -150,7 +150,7 @@ if(!_1f.tip){
 return;
 }
 var cc=typeof _20.content=="function"?_20.content.call(_1d):_20.content;
-_1f.tip.children(".tooltip-content").html(cc);
+_1f.tip.children(".tooltip-manager").html(cc);
 _20.onUpdate.call(_1d,cc);
 };
 function _21(_22){
@@ -215,7 +215,7 @@ _21(this);
 }};
 $.fn.tooltip.parseOptions=function(_29){
 var t=$(_29);
-var _2a=$.extend({},$.parser.parseOptions(_29,["position","showEvent","hideEvent","content",{trackMouse:"boolean",deltaX:"number",deltaY:"number",showDelay:"number",hideDelay:"number"}]),{_title:t.attr("title")});
+var _2a=$.extend({},$.parser.parseOptions(_29,["position","showEvent","hideEvent","manager",{trackMouse:"boolean",deltaX:"number",deltaY:"number",showDelay:"number",hideDelay:"number"}]),{_title:t.attr("title")});
 t.attr("title","");
 if(!_2a.content){
 _2a.content=_2a._title;

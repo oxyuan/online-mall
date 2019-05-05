@@ -11,6 +11,8 @@ import java.util.Date;
 @Table(name = "content_category")
 public class ContentCategory implements Serializable {
 
+    private static final long serialVersionUID = -4813361542496370884L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

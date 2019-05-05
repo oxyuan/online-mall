@@ -9,6 +9,8 @@ import java.io.Serializable;
 @Table(name = "order_item")
 public class OrderItem implements Serializable {
 
+    private static final long serialVersionUID = -4813361542496370884L;
+
     @Id
     private String id;
 

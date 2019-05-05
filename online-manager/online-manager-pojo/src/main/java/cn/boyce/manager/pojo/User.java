@@ -8,6 +8,8 @@ import java.util.Date;
 @Table(name = "user")
 public class User implements Serializable {
 
+    private static final long serialVersionUID = -4813361542496370884L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -10,6 +10,8 @@ import java.util.Date;
 @Table(name = "order_shipping")
 public class OrderShipping implements Serializable {
 
+    private static final long serialVersionUID = -4813361542496370884L;
+
     @Id
     private String orderId;
 

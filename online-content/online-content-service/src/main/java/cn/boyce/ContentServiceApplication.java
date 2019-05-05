@@ -1,4 +1,4 @@
-package cn.boyce.manager;
+package cn.boyce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,13 +6,13 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @Author: Yuan Baiyu
- * @Date: Created in 17:56 2019/5/1
+ * @Date: Created in 18:30 2019/5/2
  **/
 @EnableTransactionManagement
 @SpringBootApplication
-public class ManagerServiceApplication {
+public class ContentServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ManagerServiceApplication.class, args);
+        SpringApplication.run(ContentServiceApplication.class, args);
     }
 }

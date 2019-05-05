@@ -1,4 +1,4 @@
-package cn.boyce.manager.controller;
+package cn.boyce.manager.controller.item;
 
 import cn.boyce.manager.service.ItemParamItemService;
 import com.alibaba.dubbo.config.annotation.Reference;

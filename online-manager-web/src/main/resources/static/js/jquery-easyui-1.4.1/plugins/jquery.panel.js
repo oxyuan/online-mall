@@ -96,9 +96,9 @@ _21.addClass("panel-footer-noborder");
 _1f.addClass(_1b.headerCls);
 _20.addClass(_1b.bodyCls);
 $(_19).attr("id",_1b.id||"");
-if(_1b.content){
+if(_1b.manager){
 $(_19).panel("clear");
-$(_19).html(_1b.content);
+$(_19).html(_1b.manager);
 $.parser.parse($(_19));
 }
 function _1d(){

@@ -1,4 +1,4 @@
-package cn.boyce.manager.controller;
+package cn.boyce.manager.controller.item;
 
 import cn.boyce.common.format.EasyUITreeNode;
 import cn.boyce.manager.service.ItemCatService;

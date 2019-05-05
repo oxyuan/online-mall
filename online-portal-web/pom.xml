@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>cn.boyce</groupId>
-            <artifactId>online-manager-interface</artifactId>
+            <artifactId>online-content-interface</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

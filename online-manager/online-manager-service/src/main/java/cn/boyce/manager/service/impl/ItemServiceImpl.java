@@ -11,13 +11,16 @@ import cn.boyce.manager.repo.ItemDescDao;
 import cn.boyce.manager.repo.ItemParamItemDao;
 import cn.boyce.manager.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import com.alibaba.dubbo.config.annotation.Service;
+import org.springframework.data.redis.core.RedisTemplate;
 
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @Author: Yuan Baiyu
@@ -35,18 +38,54 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     ItemParamItemDao itemParamItemDao;
 
+    @Autowired
+    private RedisTemplate<String, Object> redisTemplate;
+
+    @Value("${ITEM_INFO_KEY}")
+    private String ITEM_INFO_KEY;
+
+    @Value("${ITEM_INFO_BASE_KEY}")
+    private String ITEM_INFO_BASE_KEY;
+
+    @Value("${ITEM_INFO_DESC_KEY}")
+    private String ITEM_INFO_DESC_KEY;
+
+    @Value("${ITEM_INFO_EXPIRE}")
+    private Integer ITEM_INFO_EXPIRE;
+
     @Override
     public Item getItemById(Long id) {
-        return itemDao.findById(id).get();
+        Item item;
+        // 查询缓存
+        try {
+            item = (Item) redisTemplate.opsForValue().get(ITEM_INFO_KEY + ":" + id + ":" + ITEM_INFO_BASE_KEY);
+            if (item != null) {
+                System.out.println("read redis item base information...");
+                return item;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        // 查询数据库
+        item = itemDao.findById(id).get();
+        try {
+            // 把数据保存到缓存
+            redisTemplate.opsForValue().set(ITEM_INFO_KEY + ":" + id + ":" + ITEM_INFO_BASE_KEY, id);
+            // 设置缓存的有效期
+            redisTemplate.expire(ITEM_INFO_KEY + ":" + id + ":" + ITEM_INFO_BASE_KEY, ITEM_INFO_EXPIRE, TimeUnit.HOURS);
+            System.out.println("write redis item base information...");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return item;
     }
 
     @Override
     public EasyUIDataGridResult getItemList(int page, int rows) {
-
         //将参数传给这个方法就可以实现物理分页。排序：
-        Sort sort = new Sort(Sort.Direction.DESC, "id");
-        //page=0 为第一页，前端默认所传为 1
-        Pageable pageable = new PageRequest(page - 1, rows, sort);
+        Sort sort = new Sort(Sort.Direction.ASC, "id");
+        //page=0 为第一页，page默认为1
+        Pageable pageable = PageRequest.of(page - 1, rows, sort);
         Page itemPage = itemDao.findAll(pageable);
 
         // 创建返回结果对象
@@ -55,7 +94,6 @@ public class ItemServiceImpl implements ItemService {
         result.setRows(itemPage.getContent());
         return result;
     }
-
 
     /**
      * 后台管理添加商品至数据库
@@ -110,5 +148,4 @@ public class ItemServiceImpl implements ItemService {
         item.setUpdated(date);
         itemDao.saveAndFlush(item);
     }
-
 }

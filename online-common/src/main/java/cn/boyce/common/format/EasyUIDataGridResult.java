@@ -12,6 +12,8 @@ import java.util.List;
 @Data
 public class EasyUIDataGridResult implements Serializable {
 
+    private static final long serialVersionUID = -4813361542496370884L;
+
     private Long total;
 
     private List<?> rows;

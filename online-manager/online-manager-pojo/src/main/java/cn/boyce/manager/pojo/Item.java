@@ -14,6 +14,8 @@ import java.util.Date;
 @Table(name = "item")
 public class Item implements Serializable {
 
+    private static final long serialVersionUID = -4813361542496370884L;
+
     @Id
     private Long id;    // 商品id，同时也是商品编号
 

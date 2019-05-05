@@ -11,6 +11,8 @@ import java.io.Serializable;
 @Data
 public class EasyUITreeNode implements Serializable {
 
+    private static final long serialVersionUID = -4813361542496370884L;
+
     private long id;
 
     private String text;

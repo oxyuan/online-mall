@@ -1,4 +1,4 @@
-package cn.boyce.manager.controller;
+package cn.boyce.manager.controller.item;
 
 
 import cn.boyce.common.format.R;
