@@ -7,15 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="online-portal-web" />
-        <module name="online-manager-interface" />
-        <module name="online-manager-pojo" />
-        <module name="online-dubbo-admin" />
         <module name="online-common" />
-        <module name="online-manager-dao" />
-        <module name="online-manager-service" />
+        <module name="online-manager-interface" />
+        <module name="dubbo-admin-server" />
+        <module name="online-search-service" />
+        <module name="online-manager-web" />
         <module name="online-content-service" />
         <module name="online-content-interface" />
-        <module name="online-manager-web" />
+        <module name="online-search-interface" />
+        <module name="dubbo-admin-ui" />
+        <module name="online-manager-service" />
+        <module name="dubbo-admin-distribution" />
+        <module name="online-manager-pojo" />
+        <module name="online-manager-dao" />
+        <module name="online-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -24,6 +29,7 @@
       <module name="maven-archiver (3)" target="1.5" />
       <module name="maven-archiver (4)" target="1.5" />
       <module name="maven-archiver (5)" target="1.5" />
+      <module name="online-dubbo-admin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,6 +44,8 @@
       <module name="online-manager-service" options="-parameters" />
       <module name="online-manager-web" options="-parameters" />
       <module name="online-portal-web" options="-parameters" />
+      <module name="online-search-interface" options="-parameters" />
+      <module name="online-search-web" options="-parameters" />
     </option>
   </component>
 </project>

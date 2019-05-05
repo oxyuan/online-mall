@@ -4,9 +4,16 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9634bb-6fee-42b3-b5d0-b7f8407578f7" name="Default Changelist" comment="前台展示开发">
+    <list default="true" id="2a9634bb-6fee-42b3-b5d0-b7f8407578f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/online-search-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-search/online-search-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-search/online-search-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/online-manager-web/target/" />
@@ -22,6 +29,15 @@
     <ignored path="$PROJECT_DIR$/online-content/online-content-interface/target/" />
     <ignored path="$PROJECT_DIR$/online-content/target/" />
     <ignored path="$PROJECT_DIR$/online-dubbo-admin/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/dubbo-admin/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-admin/dubbo-admin-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-admin/dubbo-admin-ui/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-admin/dubbo-admin-distribution/target/" />
+    <ignored path="$PROJECT_DIR$/online-search/online-search-service/target/" />
+    <ignored path="$PROJECT_DIR$/online-search/target/" />
+    <ignored path="$PROJECT_DIR$/online-search/online-search-interface/target/" />
+    <ignored path="$PROJECT_DIR$/online-search-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +64,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/online-search/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="304">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-search/online-search-interface/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-search/online-search-service/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-search-web/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -61,6 +100,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,16 +108,25 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>127.0.0.1</find>
-      <find>172.0.0.1</find>
       <find>113.250.158.109</find>
       <find>47.106.183.240</find>
       <find>localhost</find>
+      <find>172.0.0.1</find>
+      <find>172.0</find>
+      <find>page</find>
+      <find>content-add</find>
+      <find>RedisTemplate</find>
+      <find>e3mall</find>
+      <find>宜立方</find>
+      <find>sfbest_hp_hp_logo</find>
     </findStrings>
     <replaceStrings>
       <replace>172.0.0.1</replace>
-      <replace />
       <replace>localhost</replace>
       <replace>47.106.183.240</replace>
+      <replace />
+      <replace>mall</replace>
+      <replace>毕设</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -86,55 +135,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/online-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/common/PortalApplication.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/service/ItemCatService.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/common/pojo/OrderItem.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/OrderItem.java" />
-        <option value="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySpringMvcConfig.java" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/test/java/cn/boyce/manager/test/FastDFSTest.java" />
-        <option value="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySettingFileConfig.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemParamItemDao.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemParamDao.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemDescDao.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemDao.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemCatDao.java" />
-        <option value="$PROJECT_DIR$/online-content/pom.xml" />
-        <option value="$PROJECT_DIR$/online-content/online-content-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/online-content/online-content-service/pom.xml" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java" />
-        <option value="$PROJECT_DIR$/online-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamController.java" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamItemController.java" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/RestItemController.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/config/DruidConfiguration.java" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemCatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemDescServiceImpl.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/online-dubbo-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/online-dubbo-admin/src/main/java/com/alibaba/dubboadmin/config/I18nConfig.java" />
-        <option value="$PROJECT_DIR$/online-dubbo-admin/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/online-dubbo-admin/src/main/resources/log4j.yml" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/log4j.yml" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/resources/log4j.yml" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/ManagerWebApplication.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/ManagerServiceApplication.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemCatService.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemDescService.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemParamItemService.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemParamService.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamServiceImpl.java" />
-        <option value="$PROJECT_DIR$/online-portal-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/online-portal-web/pom.xml" />
-        <option value="$PROJECT_DIR$/online-manager/online-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySettingFileConfig.java" />
+        <option value="$PROJECT_DIR$/online-portal-web/src/main/resources/conf/conf.properties" />
+        <option value="$PROJECT_DIR$/online-content/online-content-interface/src/main/java/cn/boyce/manager/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ContentDao.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/manager/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/manager/service/impl/ContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/PortalApplication.java" />
+        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/ManagerWebApplication.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/Content.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ContentCategory.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/Item.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ItemCat.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ItemDesc.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ItemParam.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/ItemParamItem.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/OrderItem.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/OrderShipping.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-pojo/src/main/java/cn/boyce/manager/pojo/User.java" />
+        <option value="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/format/EasyUIDataGridResult.java" />
+        <option value="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/format/EasyUITreeNode.java" />
+        <option value="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/format/PictureResult.java" />
+        <option value="$PROJECT_DIR$/dubbo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/ContentServiceApplication.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/ContentServiceApplication.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/service/ContentServiceApplication.java" />
+        <option value="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/footer.html" />
+        <option value="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/shortcut.html" />
+        <option value="$PROJECT_DIR$/online-portal-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/online-manager-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/online-manager-web/src/test/java/cn/boyce/manager/test/FastDFSTest.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/test/java/cn/boyce/content/test/jedis/JedisTest.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/resources/conf/conf.properties" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/config/MyRedisConfig.java" />
+        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/content/ContentController.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-interface/src/main/java/cn/boyce/content/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/config/MyRedisConfig.java" />
+        <option value="$PROJECT_DIR$/online-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/config/MyRedisConfig.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/conf/conf.properties" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemDescServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/config/MySettingFileConfig.java" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/config/MySettingFileConfig.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -148,38 +199,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="online-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="online-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="online-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.alibaba.boot:dubbo-spring-boot-starter:0.2.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="online-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.alibaba.boot:dubbo-spring-boot-starter:0.2.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-framework:2.12.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="online-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.alibaba.boot:dubbo-spring-boot-starter:0.2.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-framework:2.12.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-client:2.12.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -199,59 +219,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-content" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-content" type="462c0819:PsiDirectoryNode" />
+              <item name="online-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
@@ -270,23 +289,6 @@
               <item name="online-manager-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="online-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
@@ -298,116 +300,13 @@
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="online-search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,7 +317,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/online-search/online-search-service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -430,10 +330,8 @@
     <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-manager-web\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.boyce" />
       <recent name="cn.boyce.manager" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -442,6 +340,52 @@
       <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-manager\online-manager-pojo\src\main\java\cn\boyce\manager\pojo" />
       <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-manager\online-manager-interface\src\main\java\cn\boyce\manager\service" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-content\online-content-service\src\main\resources\conf" />
+      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-manager-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8181" />
+          <option name="urlPath" value="content/query/list" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="categoryId" />
+                <option name="value" value="89" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="rows" />
+                <option name="value" value="20" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -459,26 +403,40 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.18392581" />
+    <option name="contentProportion" value="0.22642967" />
   </component>
-  <component name="RunManager" selected="Spring Boot.PortalApplication">
+  <component name="RunManager" selected="Spring Boot.ManagerWebApplication">
+    <configuration name="ContentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-content-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.ContentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.apache.dubbo.admin.DubboAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="online-manager-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.manager.ManagerServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.ManagerServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ManagerWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="online-manager-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.manager.ManagerWebApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.ManagerWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="online-portal-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.portal.PortalApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.PortalApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -486,11 +444,14 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.PortalApplication" />
+      <item itemvalue="Spring Boot.DubboAdminApplication" />
       <item itemvalue="Spring Boot.ManagerWebApplication" />
+      <item itemvalue="Spring Boot.ContentServiceApplication" />
       <item itemvalue="Spring Boot.ManagerServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ContentServiceApplication" />
         <item itemvalue="Spring Boot.ManagerServiceApplication" />
         <item itemvalue="Spring Boot.ManagerWebApplication" />
       </list>
@@ -506,7 +467,12 @@
       <workItem from="1556692031015" duration="13860000" />
       <workItem from="1556712489660" duration="308000" />
       <workItem from="1556712875297" duration="13302000" />
-      <workItem from="1556771730063" duration="8563000" />
+      <workItem from="1556771730063" duration="16795000" />
+      <workItem from="1556803977212" duration="14788000" />
+      <workItem from="1556858952780" duration="24963000" />
+      <workItem from="1556935644228" duration="25510000" />
+      <workItem from="1556981110012" duration="2437000" />
+      <workItem from="1557029248461" duration="4536000" />
     </task>
     <task id="LOCAL-00001" summary="工程改造：dubbo使用、事物管理">
       <created>1556785504979</created>
@@ -522,17 +488,40 @@
       <option name="project" value="LOCAL" />
       <updated>1556786480905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="debug日志依赖">
+      <created>1556786601591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556786601591</updated>
+    </task>
+    <task id="LOCAL-00004" summary="内容服务模块完成：添加redis缓存">
+      <created>1557042787621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557042787621</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36033000" />
+    <option name="totallyTimeSpent" value="116499000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -540,64 +529,68 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="ZooKeeper" order="6" weight="0.14145234" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.73906" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.64181525" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60615885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.40518638" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.49756888" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32901135" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.5656402" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.59967583" />
       <window_info anchor="bottom" id="Problems" order="12" weight="0.4197731" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.54943275" />
       <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.45380875" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.08265802" />
+      <window_info anchor="bottom" id="REST Client" order="18" weight="0.68719614" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.39561272" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19667171" />
       <window_info anchor="right" id="leetcode" order="4" side_tool="true" />
       <window_info anchor="right" id="Key Promoter X" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Learn" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.24432677" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.49756888" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32901135" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.56401944" />
-      <window_info anchor="bottom" id="Problems" order="5" weight="0.4878444" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.54943275" />
-      <window_info anchor="bottom" id="Tail" order="9" />
-      <window_info anchor="bottom" id="Message" order="10" />
-      <window_info anchor="bottom" id="Find" order="11" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.47487843" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="16" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.32980332" />
-      <window_info anchor="right" id="Key Promoter X" order="1" weight="0.32980332" />
-      <window_info anchor="right" id="leetcode" order="2" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14220877" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="ZooKeeper" order="6" weight="0.14145234" />
+      <window_info anchor="bottom" id="REST Client" order="0" weight="0.68719614" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.2917342" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3419773" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.40518638" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.49756888" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.45056728" />
+      <window_info anchor="bottom" id="Problems" order="13" weight="0.4197731" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.54943275" />
+      <window_info anchor="bottom" id="Tail" order="17" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.18638574" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.18456884" />
+      <window_info anchor="right" id="leetcode" order="4" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,11 +621,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="工程改造：dubbo使用、事物管理" />
     <MESSAGE value="前台展示开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="前台展示开发" />
+    <MESSAGE value="debug日志依赖" />
+    <MESSAGE value="内容服务模块完成：添加redis缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="内容服务模块完成：添加redis缓存" />
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="localhost" />
@@ -642,62 +651,173 @@
     <option name="enabled" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySpringMvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="128">
+          <caret line="69" column="90" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/index_icon_new.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/indexImg20130307.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/indexsprite.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/header.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/test/java/cn/boyce/content/test/jedis/JedisTest.java" />
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/test/java/cn/boyce/manager/test/FastDFSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/core/AbstractOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/core/DefaultHashOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="736" column="30" selection-start-line="736" selection-start-column="30" selection-end-line="736" selection-end-column="30" />
+          <folding>
+            <element signature="e#26986#26987#0" expanded="true" />
+            <element signature="e#27040#27041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/config/MyRedisConfig.java" />
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/config/DruidConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/config/MyRedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar!/org/springframework/data/annotation/Reference.class">
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/content/ContentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="437">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-pojo/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/ContentServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="76">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-dao/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/ServletInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/config/DruidConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="140">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamController.java">
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/main/resources/conf/conf.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        <state>
+          <caret column="24" selection-start-column="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemParamItemController.java">
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/config/MyRedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="197">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/config/MySettingFileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -706,344 +826,184 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="-15">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/config/MySpringMvcConfig.java" />
+    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-interface/src/main/java/cn/boyce/content/service/ContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-dubbo-admin/src/main/resources/META-INF/spring/dubbo-admin.xml" />
-    <entry file="file://$PROJECT_DIR$/online-dubbo-admin/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.16.RELEASE/spring-webmvc-3.2.16.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-dubbo-admin/src/main/java/com/alibaba/dubboadmin/config/I18nConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#2205#2206#0" expanded="true" />
-            <element signature="e#2271#2272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/config/MySettingFileConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/config/MySpringMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-dubbo-admin/src/main/java/com/alibaba/dubboadmin/DubboAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/resources/log4j.yml" />
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/log4j.yml" />
-    <entry file="file://$PROJECT_DIR$/online-dubbo-admin/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-dubbo-admin/src/main/resources/dubbo-admin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-dubbo-admin/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2319">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar!/org/springframework/boot/context/logging/LoggingApplicationListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/ManagerWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/ManagerServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/ItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemParamItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemParamService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemParamServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/RestItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemDescService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemDescServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemCatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-589">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-portal-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/PortalApplication.java">
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="-22">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/item/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/css/base_w1200.css">
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/item/RestItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="20">
+          <caret line="103" column="42" lean-forward="true" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/global_index.js">
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/resources/conf/conf.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="1113" column="23" lean-forward="true" selection-start-line="1113" selection-start-column="23" selection-end-line="1113" selection-end-column="23" />
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/config/MySettingFileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/conf/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/config/MySettingFileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="62" column="59" lean-forward="true" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#988#1004#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemDescServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="475">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search/online-search-interface/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="380">
+            <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1057,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>dubbo-admin</last-edited>
+          <last-edited>online-search-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

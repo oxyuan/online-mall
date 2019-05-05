@@ -16,7 +16,9 @@
         <option value="$PROJECT_DIR$/online-portal-web/pom.xml" />
         <option value="$PROJECT_DIR$/online-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/online-content/pom.xml" />
-        <option value="$PROJECT_DIR$/online-dubbo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/online-search/pom.xml" />
+        <option value="$PROJECT_DIR$/online-search-web/pom.xml" />
       </list>
     </option>
   </component>
