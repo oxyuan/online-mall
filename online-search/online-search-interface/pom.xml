@@ -11,5 +11,13 @@
 
     <artifactId>online-search-interface</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.boyce</groupId>
+            <artifactId>online-manager-pojo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

@@ -6,24 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="online-portal-web" />
-        <module name="online-common" />
-        <module name="online-manager-interface" />
-        <module name="dubbo-admin-server" />
         <module name="online-search-service" />
-        <module name="online-manager-web" />
-        <module name="online-content-service" />
+        <module name="online-manager-interface" />
+        <module name="online-portal-web" />
+        <module name="online-manager-pojo" />
         <module name="online-content-interface" />
         <module name="online-search-interface" />
-        <module name="dubbo-admin-ui" />
-        <module name="online-manager-service" />
-        <module name="dubbo-admin-distribution" />
-        <module name="online-manager-pojo" />
+        <module name="online-common" />
         <module name="online-manager-dao" />
+        <module name="online-manager-service" />
+        <module name="online-content-service" />
         <module name="online-search-web" />
+        <module name="online-manager-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="dubbo-admin" target="1.6" />
+      <module name="dubbo-admin-distribution" target="1.6" />
+      <module name="dubbo-admin-server" target="1.6" />
+      <module name="dubbo-admin-ui" target="1.6" />
       <module name="maven-archiver (1)" target="1.5" />
       <module name="maven-archiver (2)" target="1.5" />
       <module name="maven-archiver (3)" target="1.5" />
@@ -45,6 +46,7 @@
       <module name="online-manager-web" options="-parameters" />
       <module name="online-portal-web" options="-parameters" />
       <module name="online-search-interface" options="-parameters" />
+      <module name="online-search-service" options="-parameters" />
       <module name="online-search-web" options="-parameters" />
     </option>
   </component>

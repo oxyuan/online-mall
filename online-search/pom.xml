@@ -12,9 +12,18 @@
 
     <artifactId>online-search</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>online-search-interface</module>
+        <module>online-search-service</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.boyce</groupId>
+            <artifactId>online-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
