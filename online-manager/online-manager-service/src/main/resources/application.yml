@@ -5,6 +5,8 @@ dubbo:
     address: zookeeper://47.106.183.240:2181
   scan:
     basePackages: cn.boyce.manager.service.impl
+  protocol:
+    port: 20880
     #    base-packages: cn.boyce.manager.service.impl
     #（由于官方 bug 扫描包配置是 basePackages，而非 base-packages）
 
@@ -37,3 +39,12 @@ spring:
     timeout: 5000
     host: 47.106.183.240
     port: 6379
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://47.106.183.240:61616
+    pool:
+      enabled: true
+      max-connections: 50
+    packages:
+      trust-all: false

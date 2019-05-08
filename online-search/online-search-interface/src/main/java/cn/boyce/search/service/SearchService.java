@@ -1,6 +1,8 @@
 package cn.boyce.search.service;
 
 import cn.boyce.common.format.SearchResult;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @Author: Yuan Baiyu
@@ -8,5 +10,6 @@ import cn.boyce.common.format.SearchResult;
  **/
 public interface SearchService {
 
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
     SearchResult search(String keyWord, int page, int rows) throws Exception;
 }

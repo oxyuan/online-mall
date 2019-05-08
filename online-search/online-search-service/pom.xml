@@ -65,4 +65,5 @@
             <artifactId>activemq-pool</artifactId>
         </dependency>
     </dependencies>
+
 </project>

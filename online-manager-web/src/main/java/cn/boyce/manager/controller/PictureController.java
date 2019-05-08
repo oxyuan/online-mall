@@ -27,7 +27,7 @@ public class PictureController {
         try {
             //1、取文件的扩展名
             String originalFilename = uploadFile.getOriginalFilename();
-            String extName = originalFilename.substring(originalFilename.lastIndexOf(".") + 1);
+            String extName = originalFilename != null ? originalFilename.substring(originalFilename.lastIndexOf(".") + 1) : null;
             //2、创建一个 FastDFS 的客户端
             FastDFSClient fastDFSClient = new FastDFSClient("classpath:conf/fastdfs-client.conf");
             //3、执行上传处理

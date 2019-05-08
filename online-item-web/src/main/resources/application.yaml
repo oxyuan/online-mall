@@ -1,0 +1,24 @@
+#tomcat conf
+server:
+  port: 8084
+
+#dubbo conf
+dubbo:
+  application:
+    name: e3-item-web
+  registry:
+    address: zookeeper://47.106.183.240:2181
+  consumer:
+    timeout: 7000
+
+# activemq conf
+spring:
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://47.106.183.240:61616
+    pool:
+      enabled: true
+      max-connections: 50
+    packages:
+      trust-all: false

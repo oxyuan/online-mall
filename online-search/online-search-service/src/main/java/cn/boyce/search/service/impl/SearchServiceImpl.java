@@ -50,6 +50,7 @@ public class SearchServiceImpl implements SearchService {
         }
         //设置到返回结果
         searchResult.setTotalPages(pages);
+
         return searchResult;
     }
 }

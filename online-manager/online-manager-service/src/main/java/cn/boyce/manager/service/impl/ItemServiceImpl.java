@@ -10,6 +10,7 @@ import cn.boyce.manager.repo.ItemDao;
 import cn.boyce.manager.repo.ItemDescDao;
 import cn.boyce.manager.repo.ItemParamItemDao;
 import cn.boyce.manager.service.ItemService;
+import org.apache.activemq.command.ActiveMQTopic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
@@ -18,6 +19,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.jms.core.JmsMessagingTemplate;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -41,6 +43,9 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
 
+    @Autowired
+    private JmsMessagingTemplate jmsMessagingTemplate;
+
     @Value("${ITEM_INFO_KEY}")
     private String ITEM_INFO_KEY;
 
@@ -52,6 +57,7 @@ public class ItemServiceImpl implements ItemService {
 
     @Value("${ITEM_INFO_EXPIRE}")
     private Integer ITEM_INFO_EXPIRE;
+
 
     @Override
     public Item getItemById(Long id) {
@@ -70,9 +76,9 @@ public class ItemServiceImpl implements ItemService {
         item = itemDao.findById(id).get();
         try {
             // 把数据保存到缓存
-            redisTemplate.opsForValue().set(ITEM_INFO_KEY + ":" + id + ":" + ITEM_INFO_BASE_KEY, id);
+            redisTemplate.opsForValue().set(ITEM_INFO_KEY + ":" + id + ":" + ITEM_INFO_BASE_KEY, item);
             // 设置缓存的有效期
-            redisTemplate.expire(ITEM_INFO_KEY + ":" + id + ":" + ITEM_INFO_BASE_KEY, ITEM_INFO_EXPIRE, TimeUnit.HOURS);
+            redisTemplate.expire(ITEM_INFO_KEY + ":" + id + ":" + ITEM_INFO_BASE_KEY, ITEM_INFO_EXPIRE, TimeUnit.SECONDS);
             System.out.println("write redis item base information...");
         } catch (Exception e) {
             e.printStackTrace();
@@ -132,6 +138,9 @@ public class ItemServiceImpl implements ItemService {
         itemParamItem.setParamData(itemParam);
         // 8、插入数据
         itemParamItemDao.saveAndFlush(itemParamItem);
+        // 9、发送消息队列，通知新增商品id
+        ActiveMQTopic itemAddTopic = new ActiveMQTopic("itemAddTopic");
+        jmsMessagingTemplate.convertAndSend(itemAddTopic, item.getId());
 
         return R.ok();
     }
@@ -145,6 +154,10 @@ public class ItemServiceImpl implements ItemService {
         if (null == item.getStatus()) {
             item.setStatus((byte) 1);
         }
+        //发送消息队列，通知修改商品id
+        ActiveMQTopic itemUpdateTopic = new ActiveMQTopic("itemUpdateTopic");
+        jmsMessagingTemplate.convertAndSend(itemUpdateTopic, item.getId());
+
         item.setUpdated(date);
         itemDao.saveAndFlush(item);
     }

@@ -34,7 +34,7 @@ public class ContentServiceImpl implements ContentService {
     private String CONTENT_KEY;
 
     @Override
-    public EasyUIDataGridResult getContentList(Long categoryId, int page, int rows) {
+    public EasyUIDataGridResult getContentListByCategoryId(Long categoryId, int page, int rows) {
         //将参数传给这个方法就可以实现物理分页。排序：
         Sort sort = new Sort(Sort.Direction.ASC, "id");
         //page=0 为第一页，前端默认所传为 1

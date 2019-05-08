@@ -31,6 +31,8 @@ public class SearchItem implements Serializable {
 
     private String category_name;
 
+
+
     public String[] getImages() {
         if(this.image == null) {
             return null;

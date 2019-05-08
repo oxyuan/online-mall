@@ -10,7 +10,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @Author: Yuan Baiyu
  * @Date: Created in 22:05 2019/1/18
  */
-@EnableTransactionManagement
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 public class ManagerWebApplication {
 

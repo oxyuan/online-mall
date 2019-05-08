@@ -1,6 +1,8 @@
 package cn.boyce.search.service;
 
 import cn.boyce.common.format.R;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @Author: Yuan Baiyu
@@ -8,5 +10,6 @@ import cn.boyce.common.format.R;
  **/
 public interface SearchItemService {
 
+    @Transactional(propagation = Propagation.REQUIRED)
     R importItems();
 }

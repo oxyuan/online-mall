@@ -7,3 +7,5 @@ dubbo:
     name: mall-search-web
   registry:
     address: zookeeper://47.106.183.240:2181
+  consumer:
+    timeout: 7000

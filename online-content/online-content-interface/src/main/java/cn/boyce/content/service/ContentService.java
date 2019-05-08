@@ -15,7 +15,7 @@ import java.util.List;
 public interface ContentService {
 
     @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
-    EasyUIDataGridResult getContentList(Long categoryId, int page, int rows);
+    EasyUIDataGridResult getContentListByCategoryId(Long categoryId, int page, int rows);
 
     @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
     List<Content> listByCategoryId(Long cid);

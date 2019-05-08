@@ -6,18 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="online-search-service" />
-        <module name="online-manager-interface" />
+        <module name="online-item-web" />
         <module name="online-portal-web" />
-        <module name="online-manager-pojo" />
-        <module name="online-content-interface" />
-        <module name="online-search-interface" />
         <module name="online-common" />
-        <module name="online-manager-dao" />
-        <module name="online-manager-service" />
-        <module name="online-content-service" />
-        <module name="online-search-web" />
+        <module name="online-manager-interface" />
         <module name="online-manager-web" />
+        <module name="online-search-service" />
+        <module name="online-content-service" />
+        <module name="online-content-interface" />
+        <module name="online-sso-web" />
+        <module name="online-sso-interface" />
+        <module name="online-manager-service" />
+        <module name="online-manager-pojo" />
+        <module name="online-search-interface" />
+        <module name="online-manager-dao" />
+        <module name="online-sso-service" />
+        <module name="online-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -39,6 +43,7 @@
       <module name="online-content-interface" options="-parameters" />
       <module name="online-content-service" options="-parameters" />
       <module name="online-dubbo-admin" options="-parameters" />
+      <module name="online-item-web" options="-parameters" />
       <module name="online-manager-dao" options="-parameters" />
       <module name="online-manager-interface" options="-parameters" />
       <module name="online-manager-pojo" options="-parameters" />
@@ -48,6 +53,9 @@
       <module name="online-search-interface" options="-parameters" />
       <module name="online-search-service" options="-parameters" />
       <module name="online-search-web" options="-parameters" />
+      <module name="online-sso-interface" options="-parameters" />
+      <module name="online-sso-service" options="-parameters" />
+      <module name="online-sso-web" options="-parameters" />
     </option>
   </component>
 </project>

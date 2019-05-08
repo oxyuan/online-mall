@@ -12,15 +12,16 @@ spring:
   data:
     solr:
       host: http://47.106.183.240:8983/solr/collection1
-#  activemq:
-#    user: admin
-#    password: admin
-#    broker-url: tcp://192.168.223.128:61616
-#    pool:
-#      enabled: true
-#      max-connections: 50
-#    packages:
-#      trust-all: false
+
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://47.106.183.240:61616
+    pool:
+      enabled: true
+      max-connections: 50
+    packages:
+      trust-all: false
 
 dubbo:
   application:

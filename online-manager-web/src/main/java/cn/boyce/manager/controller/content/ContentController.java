@@ -23,7 +23,7 @@ public class ContentController {
 
     @GetMapping("/query/list")
     public EasyUIDataGridResult getContentListByCategoryId(Long categoryId, Integer page, Integer rows) {
-        return contentService.getContentList(categoryId, page, rows);
+        return contentService.getContentListByCategoryId(categoryId, page, rows);
     }
 
     @PostMapping("/delete")
