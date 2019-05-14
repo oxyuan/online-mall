@@ -1,4 +1,4 @@
-package cn.boyce.sso;
+package cn.boyce.sso.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,6 +19,7 @@ public class PageController {
 
     @RequestMapping("/login")
     public String showLogin(String redirect, Model model) {
+        // 重定向 URL
         model.addAttribute("redirect", redirect);
         return "login";
     }

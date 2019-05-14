@@ -17,9 +17,15 @@
         <module name="online-sso-web" />
         <module name="online-sso-interface" />
         <module name="online-manager-service" />
-        <module name="online-manager-pojo" />
+        <module name="online-cart-web" />
+        <module name="online-order-service" />
+        <module name="online-cart-interface" />
         <module name="online-search-interface" />
+        <module name="online-cart-service" />
+        <module name="online-manager-pojo" />
+        <module name="online-order-web" />
         <module name="online-manager-dao" />
+        <module name="online-order-interface" />
         <module name="online-sso-service" />
         <module name="online-search-web" />
       </profile>
@@ -39,6 +45,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="online-cart-interface" options="-parameters" />
+      <module name="online-cart-service" options="-parameters" />
+      <module name="online-cart-web" options="-parameters" />
       <module name="online-common" options="-parameters" />
       <module name="online-content-interface" options="-parameters" />
       <module name="online-content-service" options="-parameters" />
@@ -49,6 +58,9 @@
       <module name="online-manager-pojo" options="-parameters" />
       <module name="online-manager-service" options="-parameters" />
       <module name="online-manager-web" options="-parameters" />
+      <module name="online-order-interface" options="-parameters" />
+      <module name="online-order-service" options="-parameters" />
+      <module name="online-order-web" options="-parameters" />
       <module name="online-portal-web" options="-parameters" />
       <module name="online-search-interface" options="-parameters" />
       <module name="online-search-service" options="-parameters" />

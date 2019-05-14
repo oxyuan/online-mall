@@ -1,8 +1,9 @@
-package cn.boyce.sso;
+package cn.boyce.sso.controller;
 
 import cn.boyce.common.format.R;
 import cn.boyce.common.util.CookieUtils;
 import cn.boyce.manager.pojo.User;
+import cn.boyce.sso.UserService;
 import com.alibaba.dubbo.config.annotation.Reference;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;

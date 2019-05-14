@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/online-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-cart-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-cart/online-cart-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-cart/online-cart-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/online-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/online-content" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/online-content/online-content-interface" charset="UTF-8" />
@@ -12,6 +16,10 @@
     <file url="file://$PROJECT_DIR$/online-manager/online-manager-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/online-manager/online-manager-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/online-manager/online-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-order-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-order/online-order-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-order/online-order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/online-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/online-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/online-search" charset="UTF-8" />

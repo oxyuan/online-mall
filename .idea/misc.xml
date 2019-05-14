@@ -22,6 +22,10 @@
         <option value="$PROJECT_DIR$/online-item-web/pom.xml" />
         <option value="$PROJECT_DIR$/online-sso/pom.xml" />
         <option value="$PROJECT_DIR$/online-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/online-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/online-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/online-order/pom.xml" />
+        <option value="$PROJECT_DIR$/online-order-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

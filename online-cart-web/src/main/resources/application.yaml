@@ -1,0 +1,11 @@
+#tomcat conf
+server:
+  port: 8086
+#dubbo conf
+dubbo:
+  application:
+    name: mall-cart-web
+  registry:
+    address: zookeeper://47.106.183.240:2181
+  consumer:
+    timeout: 7000
