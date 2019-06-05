@@ -42,8 +42,6 @@ public class UserServiceImpl implements UserService {
      */
     @Override
     public R checkData(String param, Integer type) {
-
-        Map<String, String> paramMap = new HashMap<>(3);
         // type=1，验证用户名；type=2，验证手机；type=3，验证邮箱
         User user;
         switch (type) {

@@ -35,14 +35,14 @@ public class PictureController {
             //4、拼接返回的 url 和 ip 地址，拼装成完整的 url
             String url = IMAGE_SERVER_URL + path;
             //5、返回 map
-            Map result = new HashMap<>();
+            Map result = new HashMap<>(2);
             result.put("error", 0);
             result.put("url", url);
             return JsonUtils.objectToJson(result);
         } catch (Exception e) {
             e.printStackTrace();
             //5、返回 map
-            Map result = new HashMap<>();
+            Map result = new HashMap<>(2);
             result.put("error", 1);
             result.put("message", " 图片上传失败 ");
             //手动转化为 json 数据

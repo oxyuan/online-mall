@@ -65,13 +65,13 @@ public class OrderServiceImpl implements OrderService {
         orderDao.save(orderInfo);
         // 4、向订单明细表插入数据
         List<OrderItem> orderItems = orderInfo.getOrderItems();
-        for (OrderItem tbOrderItem : orderItems) {
+        for (OrderItem order : orderItems) {
             // 生成明细 id
             Long orderItemId = redisTemplate.opsForValue().increment(ORDER_ITEM_ID_GEN_KEY, 1L);
-            tbOrderItem.setId(Objects.requireNonNull(orderItemId).toString());
-            tbOrderItem.setOrderId(orderId);
+            order.setId(Objects.requireNonNull(orderItemId).toString());
+            order.setOrderId(orderId);
             // 插入数据
-            orderItemDao.save(tbOrderItem);
+            orderItemDao.save(order);
         }
         // 5、向订单物流表插入数据。
         OrderShipping orderShipping = orderInfo.getOrderShipping();
@@ -79,7 +79,7 @@ public class OrderServiceImpl implements OrderService {
         orderShipping.setCreated(date);
         orderShipping.setUpdated(date);
         orderShippingDao.save(orderShipping);
-        // 6、返回 e3Result。
+        // 6、返回 R。
         return R.ok(orderId);
     }
 

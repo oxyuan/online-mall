@@ -5,197 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9634bb-6fee-42b3-b5d0-b7f8407578f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/online-cart-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/CartWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/config/MySettingFileConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/config/MyWebMvcConfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/conf/conf.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/css/cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/css/head.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/css/jquery.alerts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/bottom_sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/cart_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/cart_icon2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/cartbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/cate_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/foot_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/getfavbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/indexImg20130307.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/kxicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/logo66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/logo_word.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/productinfo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/sf-stock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/step_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/images/thumb_1800220027_0_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/e3mall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/jquery-1.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/jquery.alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/jquery.price_format.2.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/shadow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/templates/cartSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/header1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/mainmenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/shortcut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-interface/src/main/java/cn/boyce/cart/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/CartServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/config/MyRedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/config/MySettingFileConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/conf/conf.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-cart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/OrderItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/OrderShippingDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/OrderWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/config/MySettingFileConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/config/MyWebMvcConfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/conf/conf.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/css/head.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/css/jquery.alerts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/css/newpay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/css/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/99bill.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/alipay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/bjnc_logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/bottom_sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/cart_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/cart_icon2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/cartbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/foot/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/foot_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/getfavbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/hftx_k_logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r1_c1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r1_c3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r1_c5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r1_c7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r3_c1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r3_c3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r3_c5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r3_c7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r5_c1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r5_c3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r5_c5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r5_c7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r7_c3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r7_c5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r9_c1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconyin_r9_c5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconzf_r1_c3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconzf_r1_c5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/iconzf_r3_c1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/indexImg20130307.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/kxicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/logo66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/logo_word.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/ordericons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/pay/pay_line.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/productinfo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/saomazhifu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/sd_close.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/sf-stock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/sfpay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/step_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/step_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/thumb_1800220027_0_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/images/yikatong.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/e3mall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/jquery-1.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/jquery.alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/jquery.region.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/static/js/shadow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/templates/commons/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/templates/commons/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/templates/commons/shortcut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/templates/order-cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/templates/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-interface/src/main/java/cn/boyce/order/pojo/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-interface/src/main/java/cn/boyce/order/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/order/config/MyRedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/order/config/MySettingFileConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/online-order-service/src/main/resources/conf/conf.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/部署配置说明.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/IDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/IDUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/logo66.png" beforeDir="false" afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/images/logo66.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/global_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/global_index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/jquery-1.4.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/shortcut.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/commons/shortcut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-portal-web/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-search-web/src/main/resources/templates/commons/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-search-web/src/main/resources/templates/commons/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-search-web/src/main/resources/templates/commons/shortcut.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-search-web/src/main/resources/templates/commons/shortcut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-search-web/src/main/resources/templates/error/exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-search-web/src/main/resources/templates/error/exception.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-search-web/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-search-web/src/main/resources/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/message/ItemMessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/message/ItemMessageReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/config/MySettingFileConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/config/MySettingFileConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso-web/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso-web/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso-web/src/main/resources/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso-web/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso-web/src/main/resources/static/js/allMail.js" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso-web/src/main/resources/static/js/allMail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso-web/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso-web/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso-web/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso-web/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-sso/online-sso-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso/online-sso-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-cmd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/conf/conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/conf/conf.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/CookieUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-order-web/src/main/resources/templates/order-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-order-web/src/main/resources/templates/order-cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-sso/online-sso-service/src/main/java/cn/boyce/sso/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-sso/online-sso-service/src/main/java/cn/boyce/sso/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/online-manager-web/target/" />
@@ -258,20 +79,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemCatServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="150" column="35" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="35" />
+            <state relative-caret-position="171">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/message/ItemMessageReceiver.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+            <state relative-caret-position="-437">
+              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -288,7 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>此手用户</find>
       <find>userMamErr</find>
       <find>e3mall.cn</find>
       <find>sfbest_hp_hp_head_logo</find>
@@ -297,7 +117,6 @@
       <find>user</find>
       <find>tbItem</find>
       <find>TbItem</find>
-      <find>E3_CART</find>
       <find>E3</find>
       <find>E3Result</find>
       <find>TbOrderShipping</find>
@@ -318,6 +137,8 @@
       <find>cart/add/</find>
       <find>itemAddTopic</find>
       <find>itemUpdateTopic</find>
+      <find>E3_CART</find>
+      <find>入云龙</find>
     </findStrings>
     <replaceStrings>
       <replace>172.0.0.1</replace>
@@ -349,16 +170,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/online-order/pom.xml" />
-        <option value="$PROJECT_DIR$/online-cart/online-cart-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/online-cart/online-cart-service/pom.xml" />
-        <option value="$PROJECT_DIR$/online-cart-web/pom.xml" />
-        <option value="$PROJECT_DIR$/online-order/online-order-interface/pom.xml" />
         <option value="$PROJECT_DIR$/online-order/online-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/online-cart/online-cart-interface/src/main/java/cn/boyce/cart/service/CartService.java" />
         <option value="$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/CartServiceApplication.java" />
         <option value="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/CartWebApplication.java" />
-        <option value="$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/conf/conf.properties" />
         <option value="$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/config/MyRedisConfig.java" />
         <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/ItemDao.java" />
         <option value="$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/config/MySettingFileConfig.java" />
@@ -378,7 +193,6 @@
         <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/OrderItemDao.java" />
         <option value="$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/OrderShippingDao.java" />
         <option value="$PROJECT_DIR$/online-order/online-order-service/src/main/resources/conf.properties" />
-        <option value="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/online-sso-web/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/online-order-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/online-cart-web/src/main/resources/application.yaml" />
@@ -386,10 +200,7 @@
         <option value="$PROJECT_DIR$/online-sso/online-sso-service/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/service/impl/CartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/order/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/online-order-web/src/main/resources/templates/order-cart.html" />
         <option value="$PROJECT_DIR$/online-sso-web/src/main/resources/templates/register.html" />
-        <option value="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/controller/CartController.java" />
         <option value="$PROJECT_DIR$/online-sso-web/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/online-cart-web/src/main/resources/conf/conf.properties" />
         <option value="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/interceptor/LoginInterceptor.java" />
@@ -399,6 +210,16 @@
         <option value="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/IDUtils.java" />
         <option value="$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/message/ItemMessageReceiver.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/online-sso/online-sso-service/src/main/java/cn/boyce/sso/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java" />
+        <option value="$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/conf/conf.properties" />
+        <option value="$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/order/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/online-order-web/src/main/resources/templates/order-cart.html" />
         <option value="$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java" />
       </list>
     </option>
@@ -434,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -480,27 +299,6 @@
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="online-cart-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="online-cart-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-cart-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -528,29 +326,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boyce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-cart-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
@@ -620,25 +395,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boyce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-item-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-item-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
@@ -732,6 +488,105 @@
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order" type="462c0819:PsiDirectoryNode" />
+              <item name="online-order-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order" type="462c0819:PsiDirectoryNode" />
+              <item name="online-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order" type="462c0819:PsiDirectoryNode" />
+              <item name="online-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order" type="462c0819:PsiDirectoryNode" />
+              <item name="online-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order" type="462c0819:PsiDirectoryNode" />
+              <item name="online-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boyce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boyce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boyce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -768,27 +623,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boyce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-search" type="462c0819:PsiDirectoryNode" />
-              <item name="online-search-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-search" type="462c0819:PsiDirectoryNode" />
-              <item name="online-search-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
@@ -888,30 +722,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boyce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineMalls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="online-sso-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boyce" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -923,7 +740,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/online-item-web/src/main/resources" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -932,26 +750,26 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="cn.boyce" />
-      <recent name="cn.boyce.manager" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-item-web\src\main\resources" />
-      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-order-web\src\main\resources" />
-      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-portal-web\src\main\resources" />
-      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-search-web\src\main\resources" />
-      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-sso-web\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-order\online-order-service\src\main\resources" />
       <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-order\online-order-service\src\main\resources\conf" />
       <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-sso-web\src\main\resources\static\images" />
       <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-content\online-content-service\src\main\resources\conf" />
       <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-manager-web\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.boyce" />
+      <recent name="cn.boyce.manager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls" />
+      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-item-web\src\main\resources" />
+      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-order-web\src\main\resources" />
+      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-portal-web\src\main\resources" />
+      <recent name="D:\IntelliJ_Idea-Pro\onlineMalls\online-search-web\src\main\resources" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1040,12 +858,19 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.2202473" />
+    <option name="contentProportion" value="0.24188563" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SearchServiceApplication">
-    <configuration name="ContentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="online-content-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.ContentServiceApplication" />
+  <component name="RunManager" selected="Spring Boot.OrderWebApplication">
+    <configuration name="CartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.CartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-cart-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.CartWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1057,16 +882,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="online-manager-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.ManagerServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="online-manager-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.ManagerWebApplication" />
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.boyce.OrderServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1104,19 +922,19 @@
       <item itemvalue="Spring Boot.PortalApplication" />
       <item itemvalue="Spring Boot.SearchWebApplication" />
       <item itemvalue="Spring Boot.OrderWebApplication" />
-      <item itemvalue="Spring Boot.ItemWebApplication" />
-      <item itemvalue="Spring Boot.ContentServiceApplication" />
-      <item itemvalue="Spring Boot.ManagerServiceApplication" />
-      <item itemvalue="Spring Boot.ManagerWebApplication" />
       <item itemvalue="Spring Boot.SearchServiceApplication" />
+      <item itemvalue="Spring Boot.ItemWebApplication" />
+      <item itemvalue="Spring Boot.CartServiceApplication" />
+      <item itemvalue="Spring Boot.CartWebApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ManagerWebApplication" />
-        <item itemvalue="Spring Boot.ManagerServiceApplication" />
-        <item itemvalue="Spring Boot.SearchServiceApplication" />
-        <item itemvalue="Spring Boot.ContentServiceApplication" />
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
+        <item itemvalue="Spring Boot.CartWebApplication" />
+        <item itemvalue="Spring Boot.CartServiceApplication" />
         <item itemvalue="Spring Boot.ItemWebApplication" />
+        <item itemvalue="Spring Boot.SearchServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1146,7 +964,19 @@
       <workItem from="1557463069913" duration="5939000" />
       <workItem from="1557556115347" duration="627000" />
       <workItem from="1557641040569" duration="1851000" />
-      <workItem from="1557807544915" duration="1511000" />
+      <workItem from="1557807544915" duration="3926000" />
+      <workItem from="1557897044204" duration="5668000" />
+      <workItem from="1558012347987" duration="6070000" />
+      <workItem from="1558094899116" duration="1564000" />
+      <workItem from="1558161357698" duration="1188000" />
+      <workItem from="1558416635219" duration="4123000" />
+      <workItem from="1558498191709" duration="17779000" />
+      <workItem from="1559061376657" duration="1776000" />
+      <workItem from="1559117648169" duration="3882000" />
+      <workItem from="1559451915827" duration="4749000" />
+      <workItem from="1559655964315" duration="149000" />
+      <workItem from="1559656243902" duration="1203000" />
+      <workItem from="1559690623315" duration="3314000" />
     </task>
     <task id="LOCAL-00001" summary="工程改造：dubbo使用、事物管理">
       <created>1556785504979</created>
@@ -1197,11 +1027,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557300281421</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="订单、购物车模块开发">
+      <created>1557809856745</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557809856745</updated>
+    </task>
+    <task id="LOCAL-00009" summary="README.md">
+      <created>1557810257849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557810257849</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255846000" />
+    <option name="totallyTimeSpent" value="309726000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1214,8 +1058,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -1239,8 +1084,9 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.54943275" />
       <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.69854134" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.21717991" />
       <window_info anchor="bottom" id="REST Client" order="18" weight="0.68719614" />
+      <window_info anchor="bottom" id="Inspection Results" order="19" visible="true" weight="0.13452189" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -1251,7 +1097,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22163388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -1259,8 +1105,8 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="ZooKeeper" order="6" weight="0.14145234" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.64181525" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.541329" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.534846" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32576984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1269,20 +1115,21 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32901135" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.15559158" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5008104" />
       <window_info anchor="bottom" id="Problems" order="12" weight="0.4197731" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.54943275" />
       <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.6807131" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.5591572" />
       <window_info anchor="bottom" id="REST Client" order="18" weight="0.68719614" />
+      <window_info anchor="bottom" id="Inspection Results" order="19" visible="true" weight="0.13452189" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.30937973" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.31996974" />
       <window_info anchor="right" id="leetcode" order="4" side_tool="true" />
-      <window_info anchor="right" id="Key Promoter X" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Key Promoter X" order="5" weight="0.25037822" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
@@ -1338,7 +1185,9 @@
     <MESSAGE value="搜索模块 工程搭建" />
     <MESSAGE value="完成 solr 搜索工程" />
     <MESSAGE value="SSO模块开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="SSO模块开发" />
+    <MESSAGE value="订单、购物车模块开发" />
+    <MESSAGE value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="localhost" />
@@ -1348,327 +1197,391 @@
     <option name="enabled" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/static/js/cart.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/CartServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/resources/templates/commons/shortcut.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/resources/static/js/png.js">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="uml://JAVA/cn.boyce.manager">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.manager</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.boyce.manager.controller</node>
+            <node x="" y="">cn.boyce.manager.config</node>
+            <node x="" y="">cn.boyce.manager.repo</node>
+            <node x="" y="">cn.boyce.manager.test</node>
+            <node x="" y="">cn.boyce.manager.pojo</node>
+            <node x="" y="">cn.boyce.manager.service</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="173.0" y="163.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso/online-sso-service/src/main/resources/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+    <entry file="uml://JAVA/cn.boyce.manager.service.ItemCatService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.manager.service.ItemCatService</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.boyce.manager.service.ItemCatService</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="93.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/config/MyWebMvcConfg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/config/MySettingFileConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-search-web/src/main/java/cn/boyce/search/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/config/MySettingFileConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-search-web/src/main/resources/static/js/cart.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/resources/static/js/e3mall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/resources/static/js/e3mall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/resources/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-item-web/src/main/resources/static/js/e3mall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-item-web/src/main/resources/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-item-web/src/main/resources/static/js/png.js">
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-interface/src/main/java/cn/boyce/manager/service/ItemCatService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-cart/online-cart-interface/src/main/java/cn/boyce/cart/service/CartService.java">
+    <entry file="uml://JAVA/cn.boyce.manager.service.impl.ItemCatServiceImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.manager.service.impl.ItemCatServiceImpl</OriginalElement>
+          <nodes>
+            <node x="" y="">com.alibaba.dubbo.config.annotation.Service</node>
+            <node x="" y="">cn.boyce.manager.service.ItemCatService</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemCatServiceImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="161.0" y="858.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.boyce">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.boyce.SearchServiceApplication</node>
+            <node x="" y="">cn.boyce.OrderServiceApplication</node>
+            <node x="" y="">cn.boyce.search.message</node>
+            <node x="" y="">cn.boyce.cart.config</node>
+            <node x="" y="">cn.boyce.CartServiceApplication</node>
+            <node x="" y="">cn.boyce.cart.controller</node>
+            <node x="" y="">cn.boyce.content</node>
+            <node x="" y="">cn.boyce.search.controller</node>
+            <node x="" y="">cn.boyce.manager</node>
+            <node x="" y="">cn.boyce.ItemWebApplication</node>
+            <node x="" y="">cn.boyce.ManagerServiceApplication</node>
+            <node x="" y="">cn.boyce.ContentServiceApplication</node>
+            <node x="" y="">cn.boyce.common.util</node>
+            <node x="" y="">cn.boyce.cart.service.CartService</node>
+            <node x="" y="">cn.boyce.OrderWebApplication</node>
+            <node x="" y="">cn.boyce.order.service</node>
+            <node x="" y="">cn.boyce.item</node>
+            <node x="" y="">cn.boyce.order.config</node>
+            <node x="" y="">cn.boyce.portal</node>
+            <node x="" y="">cn.boyce.order.interceptor</node>
+            <node x="" y="">cn.boyce.order.pojo</node>
+            <node x="" y="">cn.boyce.order.controller</node>
+            <node x="" y="">cn.boyce.search.service</node>
+            <node x="" y="">cn.boyce.sso</node>
+            <node x="" y="">cn.boyce.PortalApplication</node>
+            <node x="" y="">cn.boyce.SSOServiceApplication</node>
+            <node x="" y="">cn.boyce.common.format</node>
+            <node x="" y="">cn.boyce.cart.service.impl.CartServiceImpl</node>
+            <node x="" y="">cn.boyce.search.exception</node>
+            <node x="" y="">cn.boyce.search.dao</node>
+            <node x="" y="">cn.boyce.SSOWebApplication</node>
+            <node x="" y="">cn.boyce.ManagerWebApplication</node>
+            <node x="" y="">cn.boyce.SearchWebApplication</node>
+            <node x="" y="">cn.boyce.cart.interceptor</node>
+            <node x="" y="">cn.boyce.CartWebApplication</node>
+            <node x="" y="">cn.boyce.search.config</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7902097902097902" x="356.0" y="338.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.boyce.manager.service.impl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.manager.service.impl</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemParamServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemParamItemServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemDescServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemCatServiceImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="143.0" y="163.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.boyce.sso.controller.UserController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.sso.controller.UserController</OriginalElement>
+          <nodes>
+            <node x="0.0" y="401.0">cn.boyce.common.util.CookieUtils</node>
+            <node x="774.0416666666666" y="0.0">cn.boyce.manager.pojo.User</node>
+            <node x="293.91666666666663" y="756.0">cn.boyce.sso.controller.UserController</node>
+            <node x="917.0416666666666" y="756.0">cn.boyce.sso.service.impl.UserServiceImpl</node>
+            <node x="799.0" y="493.0">cn.boyce.manager.repo.UserDao</node>
+            <node x="570.0" y="493.0">cn.boyce.sso.UserService</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.boyce.sso.service.impl.UserServiceImpl" target="cn.boyce.manager.pojo.User">
+              <point x="69.66666666666669" y="-60.5" />
+              <point x="1091.2083333333333" y="731.0" />
+              <point x="1266.5" y="731.0" />
+              <point x="1266.5" y="371.0" />
+              <point x="942.9166666666666" y="371.0" />
+              <point x="72.375" y="175.5" />
+            </edge>
+            <edge source="cn.boyce.sso.controller.UserController" target="cn.boyce.common.util.CookieUtils">
+              <point x="-136.66666666666663" y="-60.5" />
+              <point x="362.25" y="731.0" />
+              <point x="274.5" y="731.0" />
+              <point x="0.0" y="152.5" />
+            </edge>
+            <edge source="cn.boyce.sso.service.impl.UserServiceImpl" target="cn.boyce.manager.repo.UserDao">
+              <point x="0.0" y="-60.5" />
+              <point x="1021.5416666666666" y="731.0" />
+              <point x="1027.5" y="731.0" />
+              <point x="0.0" y="60.5" />
+            </edge>
+            <edge source="cn.boyce.sso.controller.UserController" target="cn.boyce.sso.UserService">
+              <point x="136.66666666666674" y="-60.5" />
+              <point x="635.5833333333334" y="731.0" />
+              <point x="622.25" y="731.0" />
+              <point x="-52.25" y="60.5" />
+            </edge>
+            <edge source="cn.boyce.sso.controller.UserController" target="cn.boyce.manager.pojo.User">
+              <point x="0.0" y="-60.5" />
+              <point x="498.91666666666663" y="731.0" />
+              <point x="559.5" y="731.0" />
+              <point x="559.5" y="371.0" />
+              <point x="798.1666666666666" y="371.0" />
+              <point x="-72.375" y="175.5" />
+            </edge>
+            <edge source="cn.boyce.sso.UserService" target="cn.boyce.manager.pojo.User">
+              <point x="0.0" y="-60.5" />
+              <point x="674.5" y="381.0" />
+              <point x="846.4166666666666" y="381.0" />
+              <point x="-24.125" y="175.5" />
+            </edge>
+            <edge source="cn.boyce.manager.repo.UserDao" target="cn.boyce.manager.pojo.User">
+              <point x="0.0" y="-60.5" />
+              <point x="1027.5" y="381.0" />
+              <point x="894.6666666666666" y="381.0" />
+              <point x="24.125" y="175.5" />
+            </edge>
+            <edge source="cn.boyce.sso.service.impl.UserServiceImpl" target="cn.boyce.sso.UserService">
+              <point x="-69.66666666666669" y="-60.5" />
+              <point x="951.875" y="731.0" />
+              <point x="726.75" y="731.0" />
+              <point x="52.25" y="60.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7924263674614306" x="614.0" y="559.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="-62" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/boot/dubbo-spring-boot-starter/0.2.0/dubbo-spring-boot-starter-0.2.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-dao/src/main/java/cn/boyce/manager/repo/OrderShippingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-order/online-order-service/src/main/java/cn/boyce/order/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/src/main/resources/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/SearchServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="361">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/service/impl/SearchItemServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/online-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="112" column="34" lean-forward="true" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-search-web/src/main/resources/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso/online-sso-service/src/main/java/cn/boyce/SSOServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/resources/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="uml://JAVA/cn.boyce.sso.controller.PageController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/SSOWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/config/MyRedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/dao/SearchItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/PictureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="e#608#629#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-portal-web/src/main/java/cn/boyce/portal/config/MySettingFileConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-content/online-content-interface/src/main/java/cn/boyce/content/service/ContentCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/service/impl/ContentCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/content/ContentCategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso/online-sso-service/src/main/java/cn/boyce/sso/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="132" column="43" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.sso.controller.PageController</OriginalElement>
+          <nodes>
+            <node x="443.1190476190476" y="0.0">cn.boyce.manager.pojo.User</node>
+            <node x="569.702380952381" y="572.0">cn.boyce.sso.controller.UserController</node>
+            <node x="-6.0" y="599.0">cn.boyce.sso.controller.PageController</node>
+            <node x="305.2619047619047" y="572.0">cn.boyce.sso.service.impl.UserServiceImpl</node>
+            <node x="0.0" y="401.0">cn.boyce.manager.repo.UserDao</node>
+            <node x="545.2261904761905" y="401.0">cn.boyce.sso.UserService</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.boyce.sso.service.impl.UserServiceImpl" target="cn.boyce.manager.pojo.User">
+              <point x="0.0" y="-60.5" />
+              <point x="407.7619047619047" y="547.0" />
+              <point x="469.5" y="547.0" />
+              <point x="469.5" y="381.0" />
+              <point x="513.9940476190476" y="381.0" />
+              <point x="-23.625" y="175.5" />
+            </edge>
+            <edge source="cn.boyce.sso.controller.UserController" target="cn.boyce.sso.UserService">
+              <point x="-103.0" y="-60.5" />
+              <point x="672.702380952381" y="547.0" />
+              <point x="698.9761904761905" y="547.0" />
+              <point x="51.25" y="60.5" />
+            </edge>
+            <edge source="cn.boyce.sso.controller.UserController" target="cn.boyce.manager.pojo.User">
+              <point x="103.0" y="-60.5" />
+              <point x="878.702380952381" y="547.0" />
+              <point x="793.4107142857142" y="547.0" />
+              <point x="793.4107142857142" y="371.0" />
+              <point x="608.4940476190476" y="371.0" />
+              <point x="70.875" y="175.5" />
+            </edge>
+            <edge source="cn.boyce.sso.service.impl.UserServiceImpl" target="cn.boyce.manager.repo.UserDao">
+              <point x="-68.33333333333326" y="-60.5" />
+              <point x="339.42857142857144" y="547.0" />
+              <point x="229.5" y="547.0" />
+              <point x="0.0" y="60.5" />
+            </edge>
+            <edge source="cn.boyce.sso.UserService" target="cn.boyce.manager.pojo.User">
+              <point x="0.0" y="-60.5" />
+              <point x="647.7261904761905" y="381.0" />
+              <point x="561.2440476190476" y="381.0" />
+              <point x="23.625" y="175.5" />
+            </edge>
+            <edge source="cn.boyce.manager.repo.UserDao" target="cn.boyce.manager.pojo.User">
+              <point x="0.0" y="-60.5" />
+              <point x="229.5" y="371.0" />
+              <point x="466.7440476190476" y="371.0" />
+              <point x="-70.875" y="175.5" />
+            </edge>
+            <edge source="cn.boyce.sso.service.impl.UserServiceImpl" target="cn.boyce.sso.UserService">
+              <point x="68.33333333333337" y="-60.5" />
+              <point x="476.0952380952381" y="547.0" />
+              <point x="596.4761904761905" y="547.0" />
+              <point x="-51.25" y="60.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.788218793828892" x="149.0" y="294.0" />
+          <SelectedNodes>
+            <node>cn.boyce.sso.controller.PageController</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/online-sso/online-sso-interface/src/main/java/cn/boyce/sso/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/resources/static/js/cart.js">
+    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="754" column="9" selection-start-line="754" selection-start-column="9" selection-end-line="754" selection-end-column="9" />
+        <state relative-caret-position="265">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#68#72#0" expanded="true" />
-            <element signature="e#72#76#0" expanded="true" />
-            <element signature="e#117#121#0" expanded="true" />
-            <element signature="e#121#125#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-item-web/src/main/resources/static/js/cart.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="281" column="12" lean-forward="true" selection-start-line="281" selection-start-column="12" selection-end-line="281" selection-end-column="12" />
+        <state relative-caret-position="113">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="e#0#28770#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-item-web/src/main/resources/templates/item.html">
+    <entry file="file://$PROJECT_DIR$/online-sso/online-sso-service/src/main/java/cn/boyce/sso/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-common/src/main/java/cn/boyce/common/util/IDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="-2">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1677,18 +1590,301 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online-cart/online-cart-service/src/main/java/cn/boyce/cart/service/impl/CartServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+        <state relative-caret-position="131">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/controller/UserController.java">
+    <entry file="uml://JAVA/cn.boyce.cart.interceptor.LoginInterceptor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.cart.interceptor.LoginInterceptor</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.boyce.manager.pojo.Item</node>
+            <node x="" y="">cn.boyce.manager.service.ItemService</node>
+            <node x="" y="">cn.boyce.cart.service.impl.CartServiceImpl</node>
+            <node x="" y="">cn.boyce.cart.service.CartService</node>
+            <node x="" y="">cn.boyce.cart.controller.CartController</node>
+            <node x="" y="">cn.boyce.manager.repo.ItemDao</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemServiceImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="543.0" y="571.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        <state relative-caret-position="550">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.boyce.order.controller.OrderController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.order.controller.OrderController</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.boyce.manager.pojo.User</node>
+            <node x="" y="">cn.boyce.manager.pojo.OrderShipping</node>
+            <node x="" y="">cn.boyce.order.controller.OrderController</node>
+            <node x="" y="">cn.boyce.manager.pojo.OrderItem</node>
+            <node x="" y="">cn.boyce.order.service.OrderService</node>
+            <node x="" y="">cn.boyce.manager.pojo.Order</node>
+            <node x="" y="">cn.boyce.manager.repo.OrderItemDao</node>
+            <node x="" y="">cn.boyce.order.service.impl.OrderServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.repo.OrderDao</node>
+            <node x="" y="">cn.boyce.manager.repo.OrderShippingDao</node>
+            <node x="" y="">cn.boyce.order.pojo.OrderInfo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="516.0" y="779.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.boyce.content.service.impl.ContentServiceImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.content.service.impl.ContentServiceImpl</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.boyce.manager.controller.content.ContentController</node>
+            <node x="" y="">cn.boyce.manager.pojo.ContentCategory</node>
+            <node x="" y="">cn.boyce.content.service.impl.ContentCategoryServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.repo.ContentCategoryDao</node>
+            <node x="" y="">cn.boyce.manager.pojo.Content</node>
+            <node x="" y="">cn.boyce.manager.repo.ContentDao</node>
+            <node x="" y="">cn.boyce.content.service.ContentCategoryService</node>
+            <node x="" y="">cn.boyce.content.service.ContentService</node>
+            <node x="" y="">cn.boyce.content.service.impl.ContentServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.controller.content.ContentCategoryController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="383.0" y="820.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-content/online-content-service/src/main/java/cn/boyce/content/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/item/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.boyce.manager.controller.item.ItemController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.manager.controller.item.ItemController</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.boyce.manager.controller.item.ItemCatController</node>
+            <node x="" y="">cn.boyce.manager.pojo.ItemDesc</node>
+            <node x="" y="">cn.boyce.manager.repo.ItemCatDao</node>
+            <node x="" y="">cn.boyce.manager.pojo.Item</node>
+            <node x="" y="">cn.boyce.manager.repo.ItemParamItemDao</node>
+            <node x="" y="">cn.boyce.manager.service.ItemService</node>
+            <node x="" y="">cn.boyce.manager.service.ItemParamItemService</node>
+            <node x="" y="">cn.boyce.manager.repo.ItemParamDao</node>
+            <node x="" y="">cn.boyce.manager.pojo.ItemParamItem</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.pojo.ItemParam</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemCatServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.controller.item.ItemController</node>
+            <node x="" y="">cn.boyce.manager.controller.item.ItemParamItemController</node>
+            <node x="" y="">cn.boyce.manager.pojo.ItemCat</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemParamServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.controller.item.ItemParamController</node>
+            <node x="" y="">cn.boyce.manager.service.ItemCatService</node>
+            <node x="" y="">cn.boyce.manager.service.ItemDescService</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemParamItemServiceImpl</node>
+            <node x="" y="">cn.boyce.manager.repo.ItemDao</node>
+            <node x="" y="">cn.boyce.manager.service.ItemParamService</node>
+            <node x="" y="">cn.boyce.manager.repo.ItemDescDao</node>
+            <node x="" y="">cn.boyce.manager.service.impl.ItemDescServiceImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1109.0" y="668.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager-web/src/main/java/cn/boyce/manager/controller/item/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search/online-search-interface/src/main/java/cn/boyce/search/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/service/impl/SearchItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.boyce.search.controller.SearchController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.boyce.search.controller.SearchController</OriginalElement>
+          <nodes>
+            <node x="475.0" y="481.5">cn.boyce.search.dao.SearchDao</node>
+            <node x="788.5" y="595.0">cn.boyce.search.controller.SearchController</node>
+            <node x="734.0" y="481.5">cn.boyce.search.service.SearchService</node>
+            <node x="270.75" y="0.0">cn.boyce.common.format.SearchItem</node>
+            <node x="102.0" y="595.0">cn.boyce.search.service.impl.SearchItemServiceImpl</node>
+            <node x="241.00000000000003" y="481.5">cn.boyce.search.service.SearchItemService</node>
+            <node x="526.5" y="595.0">cn.boyce.search.service.impl.SearchServiceImpl</node>
+            <node x="0.0" y="470.0">cn.boyce.search.dao.SearchItemDao</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.boyce.search.dao.SearchDao" target="cn.boyce.common.format.SearchItem">
+              <point x="56.0" y="-26.0" />
+              <point x="643.0" y="440.0" />
+              <point x="463.25" y="440.0" />
+              <point x="82.5" y="210.0" />
+            </edge>
+            <edge source="cn.boyce.search.service.impl.SearchItemServiceImpl" target="cn.boyce.common.format.SearchItem">
+              <point x="1.1368683772161603E-13" y="-26.0" />
+              <point x="229.0000000000001" y="570.0" />
+              <point x="230.50000000000003" y="570.0" />
+              <point x="230.50000000000003" y="450.0" />
+              <point x="353.25" y="450.0" />
+              <point x="-27.5" y="210.0" />
+            </edge>
+            <edge source="cn.boyce.search.service.impl.SearchServiceImpl" target="cn.boyce.search.service.SearchService">
+              <point x="60.5" y="-26.0" />
+              <point x="708.0" y="570.0" />
+              <point x="794.5" y="570.0" />
+              <point x="-60.5" y="26.0" />
+            </edge>
+            <edge source="cn.boyce.search.service.impl.SearchItemServiceImpl" target="cn.boyce.search.dao.SearchItemDao">
+              <point x="-84.66666666666663" y="-26.0" />
+              <point x="144.33333333333337" y="570.0" />
+              <point x="110.0" y="570.0" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="cn.boyce.search.service.impl.SearchItemServiceImpl" target="cn.boyce.search.service.SearchItemService">
+              <point x="84.66666666666674" y="-26.0" />
+              <point x="313.66666666666674" y="570.0" />
+              <point x="348.0" y="570.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="cn.boyce.search.dao.SearchItemDao" target="cn.boyce.common.format.SearchItem">
+              <point x="0.0" y="-37.5" />
+              <point x="110.0" y="440.0" />
+              <point x="298.25" y="440.0" />
+              <point x="-82.5" y="210.0" />
+            </edge>
+            <edge source="cn.boyce.search.controller.SearchController" target="cn.boyce.search.service.SearchService">
+              <point x="0.0" y="-26.0" />
+              <point x="60.5" y="26.0" />
+            </edge>
+            <edge source="cn.boyce.search.service.impl.SearchServiceImpl" target="cn.boyce.search.dao.SearchDao">
+              <point x="-60.5" y="-26.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="435.0" y="400.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search-web/src/main/java/cn/boyce/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/java/cn/boyce/cart/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1285">
+          <caret line="108" column="31" lean-forward="true" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1597" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart/online-cart-interface/src/main/java/cn/boyce/cart/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1697,29 +1893,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online-order-web/src/main/java/cn/boyce/order/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="118">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-item-web/src/main/java/cn/boyce/item/message/GeneratePageMessageReceiver.java">
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/header1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="836">
+          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online-search/online-search-service/src/main/java/cn/boyce/search/message/ItemMessageReceiver.java">
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-cmd.txt" />
+    <entry file="file://$PROJECT_DIR$/online-order-web/src/main/resources/templates/order-cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+        <state relative-caret-position="57">
+          <caret line="142" column="18" lean-forward="true" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/shortcut.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/templates/commons/mainmenu.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/java/cn/boyce/sso/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-sso-web/src/main/resources/conf/conf.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart-web/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-cart/online-cart-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/online-manager/online-manager-service/src/main/java/cn/boyce/manager/service/impl/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="150" column="35" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="35" />
+        <state relative-caret-position="-437">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
         </state>
       </provider>
     </entry>

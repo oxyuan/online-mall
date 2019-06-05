@@ -38,8 +38,10 @@ public class OrderController {
      */
     @RequestMapping("/order-cart.html")
     public String showOrderCart(HttpServletRequest request) {
+        // 根据用户 id 获取收货地址列表
+        // 使用静态数据：取支付方式列表
         User user = (User) request.getAttribute("user");
-        List<Item> cartList = cartService.getCartList(5L);
+        List<Item> cartList = cartService.getCartList(user.getId());
         request.setAttribute("cartList", cartList);
         return "order-cart";
     }

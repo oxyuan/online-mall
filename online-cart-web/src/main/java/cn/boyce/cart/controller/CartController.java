@@ -154,7 +154,7 @@ public class CartController {
         // 3、遍历商品列表找到对应商品
         for (Item item : cartList) {
             if (item.getId() == itemId.longValue()) {
-                // 4、更新商品数量
+                // 4、更新商品数量 （原数量<=要修改的量如何？）
                 item.setNum(num);
             }
         }
