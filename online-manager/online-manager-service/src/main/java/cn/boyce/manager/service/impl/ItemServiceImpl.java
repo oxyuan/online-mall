@@ -58,6 +58,11 @@ public class ItemServiceImpl implements ItemService {
     @Value("${ITEM_INFO_EXPIRE}")
     private Integer ITEM_INFO_EXPIRE;
 
+    @Value("${ADD_ActiveMQTopic}")
+    private String ADD_ActiveMQTopic;
+
+    @Value("${UPDATE_ActiveMQTopic}")
+    private String UPDATE_ActiveMQTopic;
 
     @Override
     public Item getItemById(Long id) {
@@ -139,7 +144,7 @@ public class ItemServiceImpl implements ItemService {
         // 8、插入数据
         itemParamItemDao.saveAndFlush(itemParamItem);
         // 9、发送消息队列，通知新增商品id
-        ActiveMQTopic itemAddTopic = new ActiveMQTopic("itemAddTopic");
+        ActiveMQTopic itemAddTopic = new ActiveMQTopic(ADD_ActiveMQTopic);
         jmsMessagingTemplate.convertAndSend(itemAddTopic, item.getId());
 
         return R.ok();
@@ -155,7 +160,7 @@ public class ItemServiceImpl implements ItemService {
             item.setStatus((byte) 1);
         }
         //发送消息队列，通知修改商品id
-        ActiveMQTopic itemUpdateTopic = new ActiveMQTopic("itemUpdateTopic");
+        ActiveMQTopic itemUpdateTopic = new ActiveMQTopic(UPDATE_ActiveMQTopic);
         jmsMessagingTemplate.convertAndSend(itemUpdateTopic, item.getId());
 
         item.setUpdated(date);
