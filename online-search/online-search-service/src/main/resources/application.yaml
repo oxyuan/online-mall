@@ -4,19 +4,19 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://47.106.183.240:3306/online_mall?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://boyce.top:3306/online_mall?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   data:
     solr:
-      host: http://47.106.183.240:8983/solr/collection1
+      host: http://boyce.top:8983/solr/collection1
 
   activemq:
     user: admin
     password: admin
-    broker-url: tcp://47.106.183.240:61616
+    broker-url: tcp://boyce.top:61616
     pool:
       enabled: true
       max-connections: 50
@@ -27,7 +27,7 @@ dubbo:
   application:
     name: mall-search
   registry:
-    address: zookeeper://47.106.183.240:2181
+    address: zookeeper://boyce.top:2181
   scan:
     basePackages: cn.boyce.search.service.impl
   protocol:

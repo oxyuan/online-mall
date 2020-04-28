@@ -35,7 +35,7 @@
         <form id="regForm_mod" name="regForm_mod" method="post">
 
             <li class="regMb30">
-                <label><font>*</font> 账户名：</label>
+                <label><span>*</span> 账户名：</label>
                 <span class="regM defaultBorder">
             	<input id="regName" name="username" class="regInput" type="text" onkeyup="mail_div(event);"
                        onfocus="showtip('regName','userMamErr',8);" onblur="ckmem();" autocomplete="off"
@@ -46,7 +46,7 @@
             </li>
             <div node-type="layer" class="accountSearch" style="display:none;" id="person_mail"></div>
             <li>
-                <label><font>*</font> 登录密码：</label>
+                <label><span>*</span> 登录密码：</label>
                 <span class="regM defaultBorder">
             	<input id="pwd" name="password" class="regInput" autocomplete="off" type="password"
                        onfocus="showPwdtip('password','passwordErr',2);" onkeyup="ckpwd(0,1);" onblur="ckpwd(0,0);"/>
@@ -124,23 +124,23 @@
             //单点登录系统的url
             surl: ""
         },
-        inputcheck: function () {
-            var flag = true;
+        inputcheck() {
+            let flag = true;
             //不能为空检查
-            if ($("#regName").val() == "") {
+            if ($("#regName").val() === "") {
                 showError("regName", "userMamErr", defaultArr[8]);
                 flag = false;
             }
-            if ($("#pwd").val() == "") {
+            if ($("#pwd").val() === "") {
                 showError("pwd", "passwordErr", pwdArr[0]);
                 flag = false;
             }
-            if ($("#phone").val() == "") {
+            if ($("#phone").val() === "") {
                 showError("phone", "phoneErr", memArr[0]);
                 flag = false;
             }
             //密码检查
-            if ($("#pwd").val() != $("#pwdRepeat").val()) {
+            if ($("#pwd").val() !== $("#pwdRepeat").val()) {
                 showError("pwdRepeat", "password2Err", pwd2Arr[1]);
                 flag = false;
             }

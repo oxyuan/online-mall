@@ -6,6 +6,6 @@ dubbo:
   application:
     name: mall-sso-web
   registry:
-    address: zookeeper://47.106.183.240:2181
+    address: zookeeper://boyce.top:2181
   consumer:
     timeout: 7000

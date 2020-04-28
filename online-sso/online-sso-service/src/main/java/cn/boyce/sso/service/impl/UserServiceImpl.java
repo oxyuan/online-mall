@@ -70,9 +70,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public R register(User user) {
         // 再次校验数据
-        if (StringUtils.isBlank(user.getUsername())
-                || StringUtils.isBlank(user.getPassword())
-                || StringUtils.isBlank(user.getPhone())) {
+        if (StringUtils.isBlank(user.getUsername()) || StringUtils.isBlank(user.getPassword()) || StringUtils.isBlank(user.getPhone())) {
             return R.build(400, " 用户名或密码不能为空 ");
         }
         // 再次校验用户名

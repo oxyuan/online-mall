@@ -78,9 +78,6 @@ public class ContentCategoryServiceImpl implements ContentCategoryService {
     @Override
     public R updateContentCategory(Long id, String name) {
         ContentCategory category = contentCategoryDao.findById(id).get();
-        if (null == category) {
-            return R.error("没有ID对应的数据,更新失败！");
-        }
         category.setName(name);
         contentCategoryDao.saveAndFlush(category);
         return R.ok();
