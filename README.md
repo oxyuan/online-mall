@@ -47,7 +47,7 @@
   - 运行 *tracker* 实例
     - ``` docker run -d --name mall-fastdfs-tracker --net=host morunchang/fastdfs sh tracker.sh ```
   - 运行 *storage* 实例
-    - ``` docker run -d --name mall-fastdfs-storage --net=host -e TRACKER_IP=47.106.183.240:22122 -e GROUP_NAME=group1 morunchang/fastdfs sh storage.sh ```
+    - ``` docker run -d --name mall-fastdfs-storage --net=host -e TRACKER_IP=localhost:22122 -e GROUP_NAME=group1 morunchang/fastdfs sh storage.sh ```
   - 修改 *nginx* 配置，不拦截上传内容
     1. 进入容器
         - ```docker exec -it mall-fastdfs-storage /bin/bash```
