@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 17:59 2019/5/2
  **/
 public interface ContentCategoryService {

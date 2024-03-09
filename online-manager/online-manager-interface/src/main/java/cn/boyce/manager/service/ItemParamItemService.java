@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 16:58 2019/4/30
  **/
 public interface ItemParamItemService {

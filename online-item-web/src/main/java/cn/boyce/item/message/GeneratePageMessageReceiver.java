@@ -19,7 +19,7 @@ import java.io.IOException;
 /**
  * 接收后台添加商品消息，生成商品详情页面
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 13:55 2019/5/7
  **/
 @Component

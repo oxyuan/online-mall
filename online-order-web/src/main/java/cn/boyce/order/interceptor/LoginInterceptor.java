@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 使用购物车服务时，需要先对请求拦截，判断是否为登陆状态
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 19:03 2019/5/8
  **/
 @Component

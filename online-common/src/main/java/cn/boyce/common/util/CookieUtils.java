@@ -10,7 +10,7 @@ import java.net.URLEncoder;
 /**
  * Cookie 工具类
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 0:00 2019/5/6
  **/
 public class CookieUtils {

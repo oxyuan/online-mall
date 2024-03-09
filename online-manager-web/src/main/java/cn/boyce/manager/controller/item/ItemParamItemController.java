@@ -5,7 +5,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 17:10 2019/4/30
  **/
 @Controller

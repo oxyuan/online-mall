@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 21:17 2019/5/4
  **/
 @Configuration

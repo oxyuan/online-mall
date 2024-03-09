@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 自定义登录拦截器
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 18:18 2019/5/8
  **/
 @Component

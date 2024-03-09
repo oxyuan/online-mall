@@ -12,7 +12,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 23:28 2019/4/30
  **/
 @RestController

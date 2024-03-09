@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 商城自定义响应结构
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 13:05 2019/4/28
  **/
 @Data

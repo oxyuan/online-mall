@@ -17,7 +17,7 @@ import java.util.Date;
 /**
  * 商品规格参数模板管理 service
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 22:24 2019/4/28
  **/
 @Service

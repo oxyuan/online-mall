@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 17:56 2019/5/1
  **/
 @EnableTransactionManagement

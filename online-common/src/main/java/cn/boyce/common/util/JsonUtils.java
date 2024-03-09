@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 商城自定义响应结构
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 21:41 2019/4/27
  **/
 public class JsonUtils {

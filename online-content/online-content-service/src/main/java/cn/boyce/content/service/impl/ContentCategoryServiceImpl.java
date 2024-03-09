@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 内容分类管理service
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 18:03 2019/5/2
  **/
 @Service

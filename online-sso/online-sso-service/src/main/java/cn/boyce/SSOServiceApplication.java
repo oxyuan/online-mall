@@ -8,7 +8,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 18:07 2019/5/7
  **/
 @SpringBootApplication

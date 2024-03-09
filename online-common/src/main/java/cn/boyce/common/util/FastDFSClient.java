@@ -4,7 +4,7 @@ import org.csource.common.NameValuePair;
 import org.csource.fastdfs.*;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 20:37 2019/4/26
  **/
 public class FastDFSClient {

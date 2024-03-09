@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 导入索引库
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 20:58 2019/5/5
  **/
 @RestController

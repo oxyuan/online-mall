@@ -9,7 +9,7 @@ import org.springframework.jms.config.JmsListenerContainerFactory;
 import javax.jms.ConnectionFactory;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 16:17 2019/5/7
  **/
 @Configuration

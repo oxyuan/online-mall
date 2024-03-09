@@ -8,7 +8,7 @@ import javax.persistence.Transient;
 import java.io.Serializable;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 16:48 2019/5/5
  **/
 @Data

@@ -8,7 +8,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 0:58 2019/4/9
  **/
 @RequestMapping("/item")

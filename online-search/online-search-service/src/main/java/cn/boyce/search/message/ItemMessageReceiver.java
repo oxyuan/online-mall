@@ -14,7 +14,7 @@ import java.io.IOException;
 /**
  * 消息队列接收者
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 16:24 2019/5/6
  **/
 @Component

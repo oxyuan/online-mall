@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 商品规格管理模板 controller
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 22:28 2019/4/28
  **/
 @RestController

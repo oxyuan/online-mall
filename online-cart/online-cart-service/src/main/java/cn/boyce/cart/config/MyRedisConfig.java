@@ -10,7 +10,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.lang.Nullable;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 17:01 2019/5/8
  **/
 @Configuration

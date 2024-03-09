@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 0:13 2019/4/18
  **/
 public interface ItemCatService {

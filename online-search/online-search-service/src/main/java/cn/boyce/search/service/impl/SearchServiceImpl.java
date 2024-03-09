@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 /**
  * 索引库查询
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 19:36 2019/5/5
  **/
 @Service

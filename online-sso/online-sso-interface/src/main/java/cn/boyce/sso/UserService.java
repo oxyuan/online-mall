@@ -4,7 +4,7 @@ import cn.boyce.common.format.R;
 import cn.boyce.manager.pojo.User;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 18:04 2019/5/7
  **/
 public interface UserService {

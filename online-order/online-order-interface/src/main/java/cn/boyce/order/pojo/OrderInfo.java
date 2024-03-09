@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 19:07 2019/5/8
  **/
 public class OrderInfo extends Order implements Serializable {

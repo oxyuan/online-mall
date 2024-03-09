@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * 各种 ID 生成策略
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 12:39 2019/4/28
  **/
 public class IDUtils {

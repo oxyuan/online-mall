@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 全局异常处理类
  *
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 23:09 2019/5/5
  **/
 @ControllerAdvice

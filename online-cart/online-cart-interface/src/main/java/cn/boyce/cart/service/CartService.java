@@ -6,7 +6,7 @@ import cn.boyce.manager.pojo.Item;
 import java.util.List;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 16:50 2019/5/8
  **/
 public interface CartService {

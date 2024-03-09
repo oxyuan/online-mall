@@ -3,7 +3,7 @@ package cn.boyce.item.pojo;
 import cn.boyce.manager.pojo.Item;
 
 /**
- * @Author: Yuan Baiyu
+ * @Author: oxyuan
  * @Date: Created in 13:24 2019/5/7
  **/
 public class ItemDto extends Item {
